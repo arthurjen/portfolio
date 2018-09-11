@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "head"
+}
+
+
+main > header {
+  vh: 90vh;
+}
