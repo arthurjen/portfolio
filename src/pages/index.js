@@ -3,9 +3,7 @@ import Header from '../components/Header';
 
 export default () => (
 <div>
-
   <Header/>
-
   <main>
     <header>
       <h1>ARTHUR JEN</h1>
@@ -34,18 +32,6 @@ export default () => (
         <h2>Mystical Tutor</h2>
       </div>
     </section>
-
-   
-
-
-
-
-
-
-
-
   </main>
-
-
 </div>
 )
