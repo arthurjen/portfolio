@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import styles from './index.scss';
@@ -15,10 +14,6 @@ class Index extends Component {
     
     return (
       <Layout>
-        <Helmet defaultTitle={`ArthurJen`}>
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"/>
-          <html lang="en" />
-        </Helmet>
         <div>
           <main className={styles.app}>
             <header>

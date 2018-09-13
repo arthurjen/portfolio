@@ -12,7 +12,7 @@ export default () => (
     <div className="explosion">
 
     </div>
-    <div className="planet">
+    <div id="planet" className={['animated', 'shake', 'slower'].join(' ')}>
 
     </div>
 
