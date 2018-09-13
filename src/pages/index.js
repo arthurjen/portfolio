@@ -1,12 +1,10 @@
 import React from "react"
-import Header from '../components/Header';
 import Layout from '../components/layout';
 import styles from './index.scss';
 
 export default () => (
   <Layout>
     <div >
-      <Header/>
       <main className={styles.app}>
         <header>
           <h1>ARTHUR JEN</h1>
@@ -39,3 +37,23 @@ export default () => (
     </div>
   </Layout>
 )
+
+export const pageQuery = graphql`
+  query {
+    allContentfulProject {
+      edges {
+        node {
+          title,
+          github,
+          description {
+            description
+          },
+          deployedSite,
+          monthYear,
+          imageUrl,
+          technologies
+        }
+      }
+    }
+  }
+`

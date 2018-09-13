@@ -1,0 +1,34 @@
+{
+  "data": {
+    "allContentfulProject": {
+      "edges": [
+        {
+          "node": {
+            "title": "Booxy",
+            "github": "https://github.com/arthurjen/booxy",
+            "description": {
+              "description": "Like many other projects, this small one started with a question: \"Wouldn't it be cool if you had a square that divided into more squares when you clicked it?\". Research into this led me to recursive components."
+            },
+            "deployedSite": "https://arthurjen.github.io/booxy/",
+            "monthYear": "April 2017",
+            "imageUrl": "../assets/booxy.png",
+            "technologies": "JavaScript, Vue"
+          }
+        },
+        {
+          "node": {
+            "title": "Gorts",
+            "github": "https://github.com/rbtprograms/fullstack-app",
+            "description": {
+              "description": "We designed the game with realtime 2-player functionality. Each player tries to outbid their opponent while using guerilla tactics. A simple bidding game inspired by the combat system in the board game, Scythe."
+            },
+            "deployedSite": "https://gorts.herokuapp.com/",
+            "monthYear": "August 2018",
+            "imageUrl": "../assets/gorts.png",
+            "technologies": "Javascript, React, Redux, Firebase, MongoDB"
+          }
+        }
+      ]
+    }
+  }
+}

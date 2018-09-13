@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'gatsby';
 import styles from './Header.scss';
 
 export default () => (
@@ -7,11 +8,11 @@ export default () => (
       <h1>AJ</h1>
     </hgroup>
     <nav>
-      <a href="#work">Work</a>
-      <a href="about">About</a>
-      <a href="blog">Blog</a>
-      <a href="resume">Resume</a>
-      <a href="contact">Contact</a>
+      <Link to="/">Work</Link>
+      <Link to="/about">About</Link>
+      <Link to="/blog">Blog</Link>
+      <Link to="/resume">Resume</Link>
+      <Link to="/contact">Contact</Link>
     </nav>
     <ul>
       <li>

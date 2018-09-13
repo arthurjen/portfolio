@@ -1,0 +1,23 @@
+:local(.graphic) {
+  $purple: #574FBF;
+  $green: #7EB738;
+  $orange: orange;
+  
+  display: grid;
+  grid-template: 100% / 9fr 1fr 4fr;
+
+  .trail {
+
+  }
+
+  .explosion {
+
+  }
+
+  .planet {
+    background: $purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+}
