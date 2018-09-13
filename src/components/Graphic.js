@@ -4,7 +4,10 @@ import styles from './Graphic.scss';
 export default () => (
   <div className={styles.graphic}>
     <div className="trail">
-
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
     <div className="explosion">
 

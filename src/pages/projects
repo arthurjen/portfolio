@@ -32,3 +32,5 @@
     }
   }
 }
+
+data.allContentfulProject.edges[0].node.title
