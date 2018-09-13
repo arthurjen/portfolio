@@ -7,10 +7,10 @@ export default () => (
     </hgroup>
     <nav>
       <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#blog">Blog</a>
-      <a href="#resume">Resume</a>
-      <a href="#contact">Contact</a>
+      <a href="about">About</a>
+      <a href="blog">Blog</a>
+      <a href="resume">Resume</a>
+      <a href="contact">Contact</a>
     </nav>
     <ul>
       <li>
