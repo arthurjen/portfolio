@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import styles from './contact.css';
+import styles from './contact.scss';
 
 export default () => (
   <Layout>

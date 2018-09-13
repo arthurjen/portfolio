@@ -1,11 +1,13 @@
 :local(.app) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-  text-align: center;
   
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+  }
   
   header > h1 {
     /* font: 4em 'Josefin Sans', sans-serif; */
@@ -14,12 +16,12 @@
     margin-bottom: 30px;
   }
   
-  header > hgroup {
+  header > hgroup > h4 {
     color: #7EB738;
   }
   
-  section {
-    height: 90vh;
+
+  #work {
     background-image: linear-gradient(to bottom right, #BAAFB3, rgb(231, 222, 225));
     display: flex;
     justify-content: space-between;
@@ -27,30 +29,30 @@
     height: 130vh;
   }
   
-  /* #work div:nth-child(1) {
-    background: no-repeat url("./assets/booxy.png") center center;
+  #work div:nth-child(1) {
+    background: no-repeat url("../assets/booxy.png") center center;
     background-size: cover;
   }
   #work div:nth-child(2) {
-    background: no-repeat url("./assets/gitgrub.png") center center;
+    background: no-repeat url("../assets/gitgrub.png") center center;
     background-size: cover;
   }
   #work div:nth-child(3) {
-    background: no-repeat url("./assets/companion-app.png");
+    background: no-repeat url("../assets/companion-app.png");
     background-size: cover;
   }
   #work div:nth-child(4) {
-    background: url("./assets/halchemy.png");
+    background: url("../assets/halchemy.png");
     background-size: cover;
   }
   #work div:nth-child(5) {
-    background: no-repeat url("./assets/gorts.png") center center;
+    background: no-repeat url("../assets/gorts.png") center center;
     background-size: cover;
   }
   #work div:nth-child(6) {
-    background: no-repeat url("./assets/mystical-tutor.png");
+    background: no-repeat url("../assets/mystical-tutor.png");
     background-size: cover;
-  } */
+  }
   
   #work > div {
     transition: all 0.5s ease;
@@ -78,5 +80,4 @@
     padding: 1em;
     text-shadow: 1px 1px 5px black;
   }
-  
 }

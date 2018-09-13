@@ -1,13 +1,13 @@
 import React from "react"
 import Header from '../components/Header';
 import Layout from '../components/layout';
-import styles from './index.css';
+import styles from './index.scss';
 
 export default () => (
   <Layout>
-    <div className={styles.app}>
+    <div >
       <Header/>
-      <main>
+      <main className={styles.app}>
         <header>
           <h1>ARTHUR JEN</h1>
           <hgroup>
@@ -15,7 +15,7 @@ export default () => (
             <h4>+ engineer</h4>
           </hgroup>
         </header>
-        <section>
+        <section id="work">
           <div>
             <h2>Booxy</h2>
           </div>

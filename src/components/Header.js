@@ -1,7 +1,8 @@
 import React from "react"
+import styles from './Header.scss';
 
 export default () => (
-  <header>
+  <header className={styles.header}>
     <hgroup>
       <h1>AJ</h1>
     </hgroup>

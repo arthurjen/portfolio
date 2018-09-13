@@ -1,0 +1,35 @@
+:local(.header) {
+
+  overflow: hidden;
+  grid-area: header;
+  display: grid;
+  grid-template: 100% / min-content 3fr 1fr;
+  
+  
+  hgroup {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to bottom right, #BAAFB3, rgb(231, 222, 225));
+  }
+
+  nav {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+  }
+  
+  nav > a {
+    /* font: 1.1em 'Josefin Sans', sans-serif; */
+    /* font: 1.1em 'Economica', sans-serif; */
+    font: 1.1em 'Squada One', cursive;
+    text-decoration: none;
+    margin: 0px 2em;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 1.2em;
+  }
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from '../components/layout';
-import styles from './about.css';
+import styles from './about.scss';
 
 export default () => (
   <Layout>
-    <section id="about">
+    <section className={styles.about}>
       <article>
         <header>
           <h2>hey it's me</h2>
