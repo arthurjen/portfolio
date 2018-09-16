@@ -5,34 +5,32 @@ import styles from './Header.scss';
 export default () => (
   <header className={styles.header}>
     <hgroup>
-      <h1>AJ</h1>
+      <h1>Arthur Jen</h1>
     </hgroup>
     <nav>
       <Link to="/">Work</Link>
       <Link to="/about">About</Link>
-      <Link to="/blog">Blog</Link>
-      <Link to="/resume">Resume</Link>
       <Link to="/contact">Contact</Link>
     </nav>
     <ul>
       <li>
-        <a href="https://www.linkedin.com/in/arthurjen/">
-          <i className="fas fa-envelope-square"></i>
+        <a href="mailto:arthurljen@gmail.com">
+          <abbr title="Email"><i className="fas fa-envelope-square"></i></abbr>
         </a>
       </li>
       <li>
         <a href="https://www.linkedin.com/in/arthurjen/">
-          <i className="fab fa-linkedin"></i>
+          <abbr title="Linkedin"><i className="fab fa-linkedin"></i></abbr>
         </a>
       </li>
       <li>
         <a href="https://github.com/arthurjen">
-          <i className="fab fa-github-square"></i>
+          <abbr title="Github"><i className="fab fa-github-square"></i></abbr>
         </a>
       </li>
       <li>
         <a href="https://steamcommunity.com/id/wallaroo">
-          <i className="fab fa-steam-square"></i>
+        <abbr title="Let's play some Dota!"><i className="fab fa-steam-square"></i></abbr>
         </a>
       </li>
     </ul>

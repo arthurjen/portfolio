@@ -1,84 +1,67 @@
 :local(.app) {
-  
-  header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    text-align: center;
-  }
-  
-  header > h1 {
-    /* font: 4em 'Josefin Sans', sans-serif; */
-    font: 5em 'Economica', sans-serif;
-    /* font: 4em 'Squada One', cursive; */
-    margin-bottom: 30px;
-    letter-spacing: .1em;
-  }
-  
-  header > hgroup > h4 {
-    color: #7EB738;
-  }
-  
 
-  #work {
-    background-image: linear-gradient(to bottom right, #BAAFB3, rgb(231, 222, 225));
+  section {
     display: flex;
     justify-content: space-between;
-    padding: 20vh 10vw;
-    height: 130vh;
+    padding: 3vh 5vw;
+    height: 100vh;
   }
   
-  // #work div:nth-child(1) {
-  //   background: no-repeat url("../assets/booxy.png") center center;
-  //   background-size: cover;
-  // }
-  // #work div:nth-child(2) {
-  //   background: no-repeat url("../assets/gitgrub.png") center center;
-  //   background-size: cover;
-  // }
-  // #work div:nth-child(3) {
-  //   background: no-repeat url("../assets/companion-app.png");
-  //   background-size: cover;
-  // }
-  // #work div:nth-child(4) {
-  //   background: url("../assets/halchemy.png");
-  //   background-size: cover;
-  // }
-  // #work div:nth-child(5) {
-  //   background: no-repeat url("../assets/gorts.png") center center;
-  //   background-size: cover;
-  // }
-  // #work div:nth-child(6) {
-  //   background: no-repeat url("../assets/mystical-tutor.png");
-  //   background-size: cover;
-  // }
+  section div:nth-child(1) {
+    background: no-repeat url("../assets/booxy.png") center center;
+    background-size: cover;
+  }
+  section div:nth-child(2) {
+    background: no-repeat url("../assets/gitgrub.png") center center;
+    background-size: cover;
+  }
+  section div:nth-child(3) {
+    background: no-repeat url("../assets/companion-app.png");
+    background-size: cover;
+  }
+  section div:nth-child(4) {
+    background: url("../assets/halchemy.png");
+    background-size: cover;
+  }
+  section div:nth-child(5) {
+    background: no-repeat url("../assets/gorts.png") center center;
+    background-size: cover;
+  }
+  section div:nth-child(6) {
+    background: no-repeat url("../assets/mystical-tutor.png");
+    background-size: cover;
+  }
   
-  #work > div {
+  section > div {
+    flex: 1 1 auto;
     transition: all 0.3s ease;
     filter: grayscale(100%);
-    width: 16%;
+    width: 14%;
     margin: 10px 5px;
     display: flex;
     align-items: flex-end;
+  }
+  
+  section div:hover {
+    width: 70vw;
+    filter: none;
     box-shadow: 4px 4px 15px grey;
   }
   
-  #work div:hover {
-    width: 100%;
-    filter: none;
-  }
-  
-  #work > div > h2 {
+  section > div > h2 {
     transition: all 0.5s ease;
     display: none;
   }
   
-  #work div:hover h2 {
+  section div:hover h2 {
     color: #7EB738;
     display: inline;
     padding: 1em;
     text-shadow: 1px 1px 5px black;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+
   }
 }

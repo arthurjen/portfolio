@@ -1,12 +1,23 @@
+require('dotenv').config()
+const { SPACE_ID, ACCESS_TOKEN } = process.env;
 module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `img`,
+        path: `${__dirname}/src/assets/`
+      }
+    },
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `nz6p5gptgz07`,
-        accessToken: `cc93aa49f30ce75f2ffb322992759ec091aa81518c0aeb5f6f259b99113d79d3`,
+        spaceId: SPACE_ID,
+        accessToken: ACCESS_TOKEN,
         host: `preview.contentful.com`,
       },
     }

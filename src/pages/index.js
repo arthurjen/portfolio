@@ -16,13 +16,6 @@ class Index extends Component {
       <Layout>
         <div>
           <main className={styles.app}>
-            <header>
-              <h1>ARTHUR JEN</h1>
-              <hgroup>
-                <h4>software developer</h4>
-                <h4>+ engineer</h4>
-              </hgroup>
-            </header>
             <section id="work">
               {projects && projects.map(project => (
                 <div key={project.id}>
@@ -30,7 +23,7 @@ class Index extends Component {
                   <p>{project.summary}</p>
                 </div>
               ))}
-              {/* <div>
+              <div>
                 <h2>GitGrub Game</h2>
               </div>
               <div>
@@ -44,7 +37,7 @@ class Index extends Component {
               </div>
               <div>
                 <h2>Mystical Tutor</h2>
-              </div> */}
+              </div>
             </section>
           </main>
         </div>

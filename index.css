@@ -192,12 +192,3 @@ main > section {
 
 
 
-@media only screen and (max-width: 768px) {
-  body > header > nav {
-    background: white;
-  }
-
-  h1 {
-      font-size: 2em;
-  }
-}

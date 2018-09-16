@@ -1,8 +1,10 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 import Layout from '../components/layout';
+import Img from 'gatsby-image';
 import styles from './about.scss';
 
-export default () => (
+export default ({ img }) => (
   <Layout>
     <section className={styles.about}>
       <article>
@@ -10,7 +12,7 @@ export default () => (
           <h2>hey it's me</h2>
         </header>
         <div>
-          <img src="/src/assets/Rubick_icon.png" alt="me"/>
+          <Img fixed={img.file.childImageSharp.fixed} />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <section>
@@ -36,3 +38,15 @@ export default () => (
     </section>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "src/assets/Rubick_icon.png" }) {
+      childImageSharp {
+        fixed(width: 125, height: 125) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`
