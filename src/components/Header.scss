@@ -16,6 +16,8 @@
     justify-content: center;
     align-items: flex-end;
     width: 100%;
+    padding-bottom: 5px;
+
   }
   
   nav > a {
@@ -23,10 +25,10 @@
     text-decoration: none;
     margin: 0px 5%;
     font-size: 1.5em;
-    transition: all .5s ease;
+    transition: all .2s ease;
   }
 
-  a:hover {
+  i:hover, a:hover {
     transform: translateY(-5px);
   }
   
@@ -35,10 +37,16 @@
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 1.5em;
+    padding-bottom: 5px;
   }
 
   li {
     margin-left: 10%;
+  }
+
+  i {
+    transition: all .2s ease;
+
   }
 
   @media only screen and (max-width: 768px) {
@@ -62,7 +70,7 @@
     }
   
     h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
   }

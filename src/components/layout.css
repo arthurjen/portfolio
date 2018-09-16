@@ -7,7 +7,7 @@
 }
 
 a {
-  color: #7EB738;
+  color: rgb(21, 187, 253);
 }
 
 html, body {
@@ -19,6 +19,5 @@ html, body {
 }
 
 h1, h2, h3, h4 {
-  /* color: #574FBF; */
-  color: #FFFF69;
+  color: rgb(255, 190, 11);
 }
