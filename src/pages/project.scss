@@ -1,0 +1,10 @@
+:local(.project) {
+  $orange: rgb(255, 190, 11);
+  $blue: rgb(21, 187, 253);
+
+  font: 10em 'Economica', sans-serif;
+
+  span {
+    color: $blue;
+  }
+}

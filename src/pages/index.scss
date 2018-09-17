@@ -1,0 +1,84 @@
+:local(.app) {
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    height: 90vh;
+  }
+  
+  section div:nth-child(1) {
+    background: no-repeat url("../assets/booxy.png") center center;
+    background-size: cover;
+  }
+  section div:nth-child(2) {
+    background: no-repeat url("../assets/gitgrub.png") center center;
+    background-size: cover;
+  }
+  section div:nth-child(3) {
+    background: no-repeat url("../assets/companion-app.png");
+    background-size: cover;
+  }
+  section div:nth-child(4) {
+    background: url("../assets/halchemy.png");
+    background-size: cover;
+  }
+  section div:nth-child(5) {
+    background: no-repeat url("../assets/gorts.png") center center;
+    background-size: cover;
+  }
+  section div:nth-child(6) {
+    background: no-repeat url("../assets/mystical-tutor.png");
+    background-size: cover;
+  }
+  
+  section > div {
+    flex: 1 1 auto;
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+    width: 14%;
+    margin: 10px 5px;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  section div:hover {
+    width: 70vw;
+    filter: none;
+    box-shadow: 4px 4px 15px grey;
+  }
+  
+  section > div > h2 {
+    transition: all 0.5s ease;
+    display: none;
+  }
+  
+  section div:hover h2 {
+    display: inline;
+    padding: 1em;
+    text-shadow: 1px 1px 5px black;
+  }
+
+  @media only screen and (max-width: 768px) {
+    section {
+      align-items: center;
+      overflow-y: scroll;
+      flex-direction: column;
+      height: auto;
+      padding: 0 5vw;
+    }
+    section > div {
+      filter: grayscale(100%);
+      width: 100%;
+      height: 100px;
+      margin: 5px 0px;
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+
+  a {
+    width: 100%;
+    height: 100%;
+  }
+}

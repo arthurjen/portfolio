@@ -1,20 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-
-}
-
-html, body {
-  width: 100%;
-  height: 100%;
-}
-
-h1, h2, h3, h4 {
-  color: #574FBF;
-
-}
 
 body {
   display: grid;
@@ -67,14 +50,6 @@ body > header > ul {
 
 body > main {
   grid-area: main;
-}
-
-body > footer {
-  grid-area: footer;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 main > header {
@@ -213,27 +188,7 @@ main > section {
   grid-gap: 10px 10px;
 }
 
-#contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#contact > ul > li {
-  margin: 10px;
-}
 
 
 
 
-
-@media only screen and (max-width: 768px) {
-  body > header > nav {
-    background: white;
-  }
-
-  h1 {
-      font-size: 2em;
-  }
-}
