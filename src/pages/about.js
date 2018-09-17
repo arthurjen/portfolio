@@ -1,40 +1,39 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
-import Img from 'gatsby-image';
 import styles from './about.scss';
 
 export default ({ img }) => (
   <Layout>
     <section className={styles.about}>
-      <article>
+      <section className="bio">
         <header>
           <h2>hey it's me</h2>
         </header>
         <div>
-          <Img fixed={img.file.childImageSharp.fixed} />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>I am a full stack software developer with a background in architecture. I am passionate about making a big impact by being a part of the technological frontier of machine learning and AI.</p>
+          <p>I believe natural language processing, computer vision, and artificial general intelligence are going to be an integral part of all of our lives in the near future, and I want to help make that happen.</p>
         </div>
-        <section>
-          
-          <header>
-            <h3>skills</h3>
-          </header>
-          <ul>
-            <li>Javascript</li>
-            <li>Python</li>
-            <li>HTML / <abbr title="Cascading Style Sheets">CSS</abbr></li>
+      </section>
+      <section className="skills">
+        <header>
+          <h3>skills</h3>
+        </header>
+        <ul>
+          <li>Javascript</li>
+          <li>Python</li>
+          <li>HTML / <abbr title="Cascading Style Sheets">CSS</abbr></li>
 
-            <li>Vue</li>
-            <li>React</li>
-            <li>Redux</li>
+          <li>Vue</li>
+          <li>React</li>
+          <li>Redux</li>
 
-            <li>SQL</li>
-            <li>MongoDB</li>
-            <li>Firebase</li>
-          </ul>
-        </section>
-      </article>
+          <li>SQL</li>
+          <li>MongoDB</li>
+          <li>Firebase</li>
+        </ul>
+      </section>
+      
     </section>
   </Layout>
 )

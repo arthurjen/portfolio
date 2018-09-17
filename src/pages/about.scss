@@ -1,3 +1,32 @@
 :local(.about) {
-  
+  $orange: rgb(255, 190, 11);
+  $blue: rgb(21, 187, 253);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh;
+
+  p, li {
+    color: $orange;
+  }
+
+  h2, h3 {
+    color: rgb(21, 187, 253);
+  }
+
+  .bio {
+    width: 50vw;
+    height: 50vw;
+    border: 1px solid $blue;
+    text-align: right;
+  }
+
+  .skills {
+    position: fixed;
+    top: 50vh;
+    width: 30vw;
+    height: 30vw;
+    border: 1px solid $blue;
+  }
 }

@@ -21,3 +21,7 @@ html, body {
 h1, h2, h3, h4 {
   color: rgb(255, 190, 11);
 }
+
+abbr {
+  text-decoration: none;
+}

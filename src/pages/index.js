@@ -17,12 +17,14 @@ class Index extends Component {
         <div>
           <main className={styles.app}>
             <section id="work">
-              {projects && projects.map(project => (
+              {/* {projects && projects.map(project => (
                 <div key={project.id}>
                   <h2>{project.title}</h2>
-                  <p>{project.summary}</p>
                 </div>
-              ))}
+              ))} */}
+              <div>
+                <h2>Booxy</h2>
+              </div>
               <div>
                 <h2>GitGrub Game</h2>
               </div>
@@ -63,9 +65,18 @@ export const getAllProjects = graphql`
           },
           deployedSite,
           monthYear,
-          imageUrl,
           technologies,
-          summary
+          summary,
+          image {
+            file {
+              url
+            }
+          },
+          splash {
+            file {
+              url
+            }
+          }
         }
       }
     }
