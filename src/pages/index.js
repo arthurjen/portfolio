@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import styles from './index.scss';
+import { Link } from 'gatsby';
 
 class Index extends Component {
   static propTypes = {
@@ -23,7 +24,7 @@ class Index extends Component {
                 </div>
               ))} */}
               <div>
-                <h2>Booxy</h2>
+                <Link to="/project"><h2>Booxy</h2></Link>
               </div>
               <div>
                 <h2>GitGrub Game</h2>
