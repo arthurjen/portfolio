@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fe2022d99eac6cd22b49799109c9f6f7",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1039,16 +1030,14 @@
     },
     "Site": {
       "siteMetadata": {},
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-17T03:30:13.322Z",
+      "buildTime": "2018-09-17T03:35:33.349Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "04e8e6b4dd91552889e84d8e62dd7489",
+        "contentDigest": "02b7ae48aac9098792041b0a5f2320f2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1058,7 +1047,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "934e0aa186ec1a995c0a74e0cc33b5e1",
+        "contentDigest": "60d85f9817b371636186e666cba889ca",
         "type": "Directory",
         "description": "Directory \"src/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -1070,7 +1059,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2018-09-17T03:29:55.985Z",
-      "accessTime": "2018-09-17T03:30:15.591Z",
+      "accessTime": "2018-09-17T03:35:35.449Z",
       "changeTime": "2018-09-17T03:29:55.985Z",
       "birthTime": "2018-09-17T03:29:55.447Z",
       "root": "/",
@@ -1088,11 +1077,11 @@
       "blksize": 4194304,
       "ino": 8491608,
       "blocks": 0,
-      "atimeMs": 1537155015591.1252,
+      "atimeMs": 1537155335449.0457,
       "mtimeMs": 1537154995985.2598,
       "ctimeMs": 1537154995985.2598,
       "birthtimeMs": 1537154995446.801,
-      "atime": "2018-09-17T03:30:15.591Z",
+      "atime": "2018-09-17T03:35:35.449Z",
       "mtime": "2018-09-17T03:29:55.985Z",
       "ctime": "2018-09-17T03:29:55.985Z",
       "birthtime": "2018-09-17T03:29:55.447Z"
@@ -1749,10 +1738,6 @@
     "project-3d8": "725/path---project-3-d-8-a3b-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js"
-    },
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js": {
       "query": "query usersArthurjenAlchemy401PortfolioSrcPagesAboutJs2967164696 {\n  file(relativePath: {eq: \"src/assets/Rubick_icon.png\"}) {\n    childImageSharp {\n      fixed(width: 125, height: 125) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
       "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js"
