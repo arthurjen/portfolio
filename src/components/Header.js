@@ -8,9 +8,9 @@ export default () => (
       <h1>Arthur Jen</h1>
     </hgroup>
     <nav>
-      <Link to="/">Work</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
+      <Link activeStyle={{ borderBottom: '4px solid rgb(21, 187, 253)' }} to="/">Work</Link>
+      <Link activeStyle={{ borderBottom: '4px solid rgb(21, 187, 253)' }} to="/about">About</Link>
+      <Link activeStyle={{ borderBottom: '4px solid rgb(21, 187, 253)' }} to="/contact">Contact</Link>
     </nav>
     <ul>
       <li>

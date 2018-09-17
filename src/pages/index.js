@@ -20,11 +20,11 @@ class Index extends Component {
             <section id="work">
               {/* {projects && projects.map(project => (
                 <div key={project.id}>
-                  <h2>{project.title}</h2>
+                  <Link to="/project" project={project}><h2>Booxy</h2></Link>
                 </div>
               ))} */}
               <div>
-                <Link to="/project"><h2>Booxy</h2></Link>
+                <h2>Booxy</h2>
               </div>
               <div>
                 <h2>GitGrub Game</h2>
