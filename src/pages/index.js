@@ -1,17 +1,17 @@
 import React, { Component } from "react"
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import styles from './index.scss';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 
 class Index extends Component {
-  static propTypes = {
-    data: PropTypes.object.isRequired
-  };
+  // static propTypes = {
+  //   data: PropTypes.object.isRequired
+  // };
 
   render() { 
-    const projects = this.props.data.allContentfulProject.edges.map(node => node.node);
+    // const projects = this.props.data.allContentfulProject.edges.map(node => node.node);
     
     return (
       <Layout>
