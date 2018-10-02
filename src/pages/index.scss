@@ -8,11 +8,10 @@
   }
 
   section > div {
-    flex: 1 1 auto;
     transition: all 0.3s ease;
     // filter: grayscale(100%);
-    width: 14%;
-    margin: 10px 5px;
+    width: 100%;
+    margin: 0px 1px;
     display: grid;
     grid-template: 1fr 3fr / 100%;
     text-align: center;
@@ -20,8 +19,9 @@
   }
 
   section div:hover {
-    width: 70vw;
+    width: 2000%;
     filter: none;
+    z-index: 10;
   }
   section div:hover ~ div {
     font-size: .5em;
@@ -29,7 +29,7 @@
 
   h2 {
     color: inherit;
-    font-size: 1em;
+    font-size: .5em;
   }
 
   i {

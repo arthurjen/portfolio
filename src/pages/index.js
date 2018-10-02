@@ -6,46 +6,61 @@ import styles from './index.scss';
 // import { Link } from 'gatsby';
 
 class Index extends Component {
+  state = {
+    projects: [
+      {
+        name: 'Booxy',
+        icon: 'fas fa-th-large'
+      },
+      {
+        name: 'Project GitGrub',
+        icon: 'far fa-lemon'
+      },
+      {
+        name: 'Bootcamp Companion',
+        icon: 'fas fa-tablet-alt'
+      },
+      {
+        name: 'HALchemy',
+        icon: 'fas fa-robot'
+      },
+      {
+        name: 'Gorts',
+        icon: 'fas fa-chess-knight'
+      },
+      {
+        name: 'Mystical Tutor',
+        icon: 'far fa-moon'
+      },
+      {
+        name: 'Snakes & Squirrels',
+        icon: 'fas fa-strikethrough'
+      },
+    ]
+  }
   // static propTypes = {
   //   data: PropTypes.object.isRequired
   // };
+  
 
   render() { 
     // const projects = this.props.data.allContentfulProject.edges.map(node => node.node);
     
+    
+
     return (
       <Layout>
         <div>
           <main className={styles.app}>
-            <section id="work">
-              <div>
-                <i className="fas fa-th-large"></i>
-                <h2>Booxy</h2>
-              </div>
-              <div className="project-name">
-                <i className="far fa-lemon"></i>
-                <h2>GitGrub Game</h2>
-              </div>
-              <div>
-                <i className="fas fa-tablet-alt"></i>
-                <h2>Bootcamp Companion App</h2>
-              </div>
-              <div>
-                <i className="fas fa-robot"></i>
-                <h2>HALchemy Chatbot Game</h2>
-              </div>
-              <div>
-                <i className="fas fa-chess-knight"></i>
-                <h2>Gorts</h2>
-              </div>
-              <div>
-                <i className="far fa-moon"></i>
-                <h2>Mystical Tutor</h2>
-              </div>
-              <div>
-                <i className="fas fa-strikethrough"></i>
-                <h2>Snakes &amp; Squirrels</h2>
-              </div>
+            <section>
+              {
+                this.state.projects.map(({ name, icon }) => (
+                  <div>
+                    <i className={icon}></i>
+                    <h2>{name}</h2>
+                  </div>
+                ))
+              }
             </section>
           </main>
         </div>
