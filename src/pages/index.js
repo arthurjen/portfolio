@@ -18,28 +18,33 @@ class Index extends Component {
         <div>
           <main className={styles.app}>
             <section id="work">
-              {/* {projects && projects.map(project => (
-                <div key={project.id}>
-                  <Link to="/project" project={project}><h2>Booxy</h2></Link>
-                </div>
-              ))} */}
               <div>
+                <i className="fas fa-th-large"></i>
                 <h2>Booxy</h2>
               </div>
-              <div>
+              <div className="project-name">
+                <i className="far fa-lemon"></i>
                 <h2>GitGrub Game</h2>
               </div>
               <div>
+                <i className="fas fa-tablet-alt"></i>
                 <h2>Bootcamp Companion App</h2>
               </div>
               <div>
+                <i className="fas fa-robot"></i>
                 <h2>HALchemy Chatbot Game</h2>
               </div>
               <div>
+                <i className="fas fa-chess-knight"></i>
                 <h2>Gorts</h2>
               </div>
               <div>
+                <i className="far fa-moon"></i>
                 <h2>Mystical Tutor</h2>
+              </div>
+              <div>
+                <i className="fas fa-strikethrough"></i>
+                <h2>Snakes &amp; Squirrels</h2>
               </div>
             </section>
           </main>
