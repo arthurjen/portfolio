@@ -14,19 +14,14 @@
     font: 2.5em 'Economica', sans-serif;
   }
 
-  i {
-    font-size: 1.5em;
-    color: white;
-  }
-
-  nav {
-    display: none;
-  }
-
+  
+  
   nav > a {
     font: 2.5vh 'Cairo', sans-serif;
     text-decoration: none;
     transition: all .2s ease;
+    margin-left: 20px;
+    padding-right: 10px;
   }
 
   a:hover {
