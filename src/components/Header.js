@@ -11,16 +11,16 @@ class Header extends Component {
   render() { 
 
     const activeLink = {
-      borderBottom: '1px solid rgb(21, 187, 253)',
-      borderRight: '1px solid rgb(21, 187, 253)'
+      borderBottom: '1px solid #574FBF',
+      borderRight: '1px solid #574FBF'
     }
 
     return (
       <header className={styles.header}>
         <h1>Arthur Jen</h1>
         <nav>
-          <Link activeStyle={activeLink} to="/">WORK</Link>
-          <Link activeStyle={activeLink} to="/about/">ABOUT</Link>
+          <Link activeStyle={activeLink} to="/">work</Link>
+          <Link activeStyle={activeLink} to="/about/">about</Link>
         </nav>
       </header>
     );

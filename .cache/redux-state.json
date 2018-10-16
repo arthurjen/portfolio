@@ -1733,14 +1733,14 @@
   "jsonDataPaths": {
     "canvas-0d3": "530/path---canvas-0-d-3-9e9-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "about-f34": "576/path---about-f-34-4c2-Kn4eq1gOcmqCOc9AMQhmxQmFOwM",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "project-3d8": "725/path---project-3-d-8-a3b-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js": {
-      "query": "query usersArthurjenAlchemy401PortfolioSrcPagesAboutJs2967164696 {\n  file(relativePath: {eq: \"src/assets/Rubick_icon.png\"}) {\n    childImageSharp {\n      fixed(width: 125, height: 125) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "query": "",
       "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js"
     },
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/contact.js": {

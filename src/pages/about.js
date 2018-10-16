@@ -1,5 +1,4 @@
 import React from 'react';
-import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import styles from './about.scss';
 
@@ -15,37 +14,34 @@ export default ({ img }) => (
           <p>I believe natural language processing, computer vision, and artificial general intelligence are going to be an integral part of all of our lives in the near future, and I want to help make that happen.</p>
         </div>
       </section>
-      <section className="skills">
+      <section className="links">
         <header>
-          <h3>skills</h3>
+          <h2>let's <span>connect</span></h2>
         </header>
         <ul>
-          <li>Javascript</li>
-          <li>Python</li>
-          <li>HTML / <abbr title="Cascading Style Sheets">CSS</abbr></li>
-
-          <li>Vue</li>
-          <li>React</li>
-          <li>Redux</li>
-
-          <li>SQL</li>
-          <li>MongoDB</li>
-          <li>Firebase</li>
+          <li>
+            <a href="mailto:arthurljen@gmail.com">
+              <abbr title="Email"><i className="fas fa-envelope-square"></i></abbr>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/arthurjen/">
+              <abbr title="Linkedin"><i className="fab fa-linkedin"></i></abbr>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/arthurjen">
+              <abbr title="Github"><i className="fab fa-github-square"></i></abbr>
+            </a>
+          </li>
+          <li>
+            <a href="https://steamcommunity.com/id/wallaroo">
+            <abbr title="Let's play some Dota!"><i className="fab fa-steam-square"></i></abbr>
+            </a>
+          </li>
         </ul>
       </section>
       
     </section>
   </Layout>
 )
-
-export const query = graphql`
-  query {
-    file(relativePath: { eq: "src/assets/Rubick_icon.png" }) {
-      childImageSharp {
-        fixed(width: 125, height: 125) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
-`
