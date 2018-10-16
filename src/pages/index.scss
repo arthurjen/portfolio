@@ -18,14 +18,7 @@
 
   }
 
-  section div:hover {
-    width: 2000%;
-    filter: none;
-    z-index: 10;
-  }
-  section div:hover ~ div {
-    font-size: .5em;
-  }
+ 
 
   h2 {
     color: inherit;
@@ -39,59 +32,42 @@
     justify-content: center;
   }
 
-  section div:nth-child(1) {
-    background: #2359A6;
-    color: white;
-  }
-  section div:nth-child(2) {
+ 
+  section div:nth-child(1):hover {
     background: #F2D97E;
     color: #C74870;
   }
-  section div:nth-child(3) {
+  section div:nth-child(2):hover {
     background: #66CADE;
     color: #334A61
   }
-  section div:nth-child(4) {
+  section div:nth-child(3):hover {
     background: #63B844;
     color: black;
   }
-  section div:nth-child(5) {
-    background: #5B5A59;
-    color: white;
-  }
-  section div:nth-child(6) {
-    background: white;
-    color: #357BB8;
-  }
-  section div:nth-child(7) {
+  section div:nth-child(4):hover {
     background: limegreen;
     color: yellow;
   }
   
-  // section div:nth-child(1):hover {
-  //   background: no-repeat url("../assets/booxy.png") center center;
-  //   background-size: cover;
-  // }
-  // section div:nth-child(2):hover {
-  //   background: no-repeat url("../assets/gitgrub.png") center center;
-  //   background-size: cover;
-  // }
-  // section div:nth-child(3):hover {
-  //   background: no-repeat url("../assets/companion-app.png");
-  //   background-size: cover;
-  // }
-  // section div:nth-child(4):hover {
-  //   background: url("../assets/halchemy.png");
-  //   background-size: cover;
-  // }
-  // section div:nth-child(5):hover {
-  //   background: no-repeat url("../assets/gorts.png") center center;
-  //   background-size: cover;
-  // }
-  // section div:nth-child(6):hover {
-  //   background: no-repeat url("../assets/mystical-tutor.png");
-  //   background-size: cover;
-  // }
+
+  section div:nth-child(1) {
+    background: no-repeat url("../assets/gitgrub.png");
+    background-size: cover;
+  }
+  section div:nth-child(2) {
+    background: no-repeat url("../assets/companion-app.png");
+    background-size: cover;
+  }
+  section div:nth-child(3) {
+    background: url("../assets/halchemy.png");
+    background-size: cover;
+  }
+  section div:nth-child(4) {
+    background: url("../assets/halchemy.png");
+    background-size: cover;
+  }
+
   
   
   

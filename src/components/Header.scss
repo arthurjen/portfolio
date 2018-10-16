@@ -4,7 +4,6 @@
   grid-template: min-content / auto 3fr minmax(auto, 1fr);
   margin: 0 5vw;
   padding: 10px;
-  border-bottom: 2px solid white;
 
   h1 {
     font: 3em 'Economica', sans-serif;
@@ -19,11 +18,12 @@
   }
 
   nav > a {
-    font: 1.1em 'Squada One', cursive;
+    font: 1.1em 'Cairo', sans-serif;
     text-decoration: none;
     margin: 0px 5%;
-    font-size: 1.5em;
+    font-size: 2.5vh;
     transition: all .2s ease;
+    
   }
 
   i:hover, a:hover {
@@ -46,36 +46,16 @@
     transition: all .2s ease;
   }
 
-  @media only screen and (max-width: 768px) {
-    grid-template: min-content / auto minmax(auto, 1fr);
+  // @media only screen and (max-width: 768px) {
+  //   h1 {
+  //       font-size: 3em;
+  //   }
+    
+  // }
 
-    nav {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      background: black;
-      z-index: 10;
-      display: flex;
-      justify-content: center;
-      padding: 10px 0px;
-      border-top: 1px solid grey;
-    }
-
-    nav > a {
-      width: 100%;
-      text-align: center;
-    }
-  
-    h1 {
-        font-size: 3em;
-    }
-  }
-
-  @media only screen and (max-width: 321px) {
-    grid-template: min-content / auto minmax(auto, 1fr);
-
-    h1 {
-      font-size: 2.45em;
-    }
-  }
+  // @media only screen and (max-width: 321px) {
+  //   h1 {
+  //     font-size: 2.45em;
+  //   }
+  // }
 }
