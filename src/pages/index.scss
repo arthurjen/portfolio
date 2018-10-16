@@ -1,4 +1,5 @@
 :local(.app) {
+  padding-top: 13vh;
 
   section {
     display: flex;
@@ -10,7 +11,8 @@
   section > div {
     transition: all 0.3s ease;
     // filter: grayscale(100%);
-    width: 100%;
+    width: 90vw;
+    height: 90vw;
     margin: 0px 1px;
     display: grid;
     grid-template: 1fr 3fr / 100%;
@@ -93,8 +95,8 @@
     }
     section > div {
       filter: grayscale(100%);
-      width: 100%;
-      height: 100px;
+      width: 90vw;
+      height: 90vw;
       margin: 5px 0px;
       display: flex;
       align-items: flex-end;

@@ -1,61 +1,55 @@
 :local(.header) {
   overflow: hidden;
-  display: grid;
-  grid-template: min-content / auto 3fr minmax(auto, 1fr);
-  margin: 0 5vw;
-  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 13vh;
+  background: rgba(31, 31, 31, 0.5);
+  position: fixed;
+  z-index: 10;
+  padding: 0px 5vw;
 
   h1 {
-    font: 3em 'Economica', sans-serif;
-  }
-
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-    padding-bottom: 5px;
-  }
-
-  nav > a {
-    font: 1.1em 'Cairo', sans-serif;
-    text-decoration: none;
-    margin: 0px 5%;
-    font-size: 2.5vh;
-    transition: all .2s ease;
-    
-  }
-
-  i:hover, a:hover {
-    transform: translateY(-5px);
-  }
-
-  ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: 1.5em;
-    padding-bottom: 5px;
-  }
-
-  li {
-    margin-left: 10%;
+    font: 2.5em 'Economica', sans-serif;
   }
 
   i {
+    font-size: 1.5em;
+    color: white;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav > a {
+    font: 2.5vh 'Cairo', sans-serif;
+    text-decoration: none;
     transition: all .2s ease;
   }
 
-  // @media only screen and (max-width: 768px) {
-  //   h1 {
-  //       font-size: 3em;
-  //   }
-    
-  // }
+  a:hover {
+    transform: translateY(-5px);
+  }
 
-  // @media only screen and (max-width: 321px) {
-  //   h1 {
-  //     font-size: 2.45em;
-  //   }
-  // }
+
+
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 3em;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 100%;
+    }
+  
+    i {
+      display: none;
+    }
+  }
+
 }
