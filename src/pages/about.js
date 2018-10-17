@@ -12,36 +12,30 @@ export default ({ img }) => (
         <div>
           <p>I am a full stack software developer.</p>
           <p>Machine learning is the <em>future</em>.</p>
-          <p>And I want to help</p>
+          <p>And I'm going to help</p>
           <p>make it a <em>reality</em>.</p>
         </div>
       </section>
       <section className="links">
-          <h2>let's</h2>
+        <h2>let's</h2>
         <ul>
           <h2>connect</h2>
           <li>
-            email:
+            <span>email:</span>
             <a href="mailto:arthurljen@gmail.com">
-              <i className="fas fa-envelope-square"></i>
+              <i className="fas fa-envelope-square"/>
             </a>
           </li>
           <li>
-            linkedin:
+            <span>linkedin:</span>
             <a href="https://www.linkedin.com/in/arthurjen/">
-              <abbr title="Linkedin"><i className="fab fa-linkedin"></i></abbr>
+              <i className="fab fa-linkedin"/>
             </a>
           </li>
           <li>
-            github:
+            <span>github:</span>
             <a href="https://github.com/arthurjen">
-              <abbr title="Github"><i className="fab fa-github-square"></i></abbr>
-            </a>
-          </li>
-          <li>
-            steam:
-            <a href="https://steamcommunity.com/id/wallaroo">
-            <abbr title="Let's play some Dota!"><i className="fab fa-steam-square"></i></abbr>
+              <i className="fab fa-github-square"/>
             </a>
           </li>
         </ul>
