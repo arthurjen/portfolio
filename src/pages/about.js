@@ -7,34 +7,39 @@ export default ({ img }) => (
     <section className={styles.about}>
       <section className="bio">
         <header>
-          <h2>hey it's me</h2>
+          <h2><span>hey</span> it's me</h2>
         </header>
         <div>
-          <p>I am a full stack software developer with a background in architecture. I am passionate about making a big impact by being a part of the technological frontier of machine learning and AI.</p>
-          <p>I believe natural language processing, computer vision, and artificial general intelligence are going to be an integral part of all of our lives in the near future, and I want to help make that happen.</p>
+          <p>I am a full stack software developer.</p>
+          <p>Machine learning is the <em>future</em>.</p>
+          <p>And I want to help</p>
+          <p>make it a <em>reality</em>.</p>
         </div>
       </section>
       <section className="links">
-        <header>
-          <h2>let's <span>connect</span></h2>
-        </header>
+          <h2>let's</h2>
         <ul>
+          <h2>connect</h2>
           <li>
+            email:
             <a href="mailto:arthurljen@gmail.com">
-              <abbr title="Email"><i className="fas fa-envelope-square"></i></abbr>
+              <i className="fas fa-envelope-square"></i>
             </a>
           </li>
           <li>
+            linkedin:
             <a href="https://www.linkedin.com/in/arthurjen/">
               <abbr title="Linkedin"><i className="fab fa-linkedin"></i></abbr>
             </a>
           </li>
           <li>
+            github:
             <a href="https://github.com/arthurjen">
               <abbr title="Github"><i className="fab fa-github-square"></i></abbr>
             </a>
           </li>
           <li>
+            steam:
             <a href="https://steamcommunity.com/id/wallaroo">
             <abbr title="Let's play some Dota!"><i className="fab fa-steam-square"></i></abbr>
             </a>
