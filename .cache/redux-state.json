@@ -1043,12 +1043,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-16T17:29:02.279Z",
+      "buildTime": "2018-10-24T20:22:55.362Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b7137395c35412bfe5920709ae4e79ea",
+        "contentDigest": "171d22a24b0ead46703eda242643c3f5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1058,7 +1058,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3049ea82398a3cb4129b59b5ef1d29b4",
+        "contentDigest": "0052242fe42c94446e8c38d709026e39",
         "type": "Directory",
         "description": "Directory \"src/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -1067,11 +1067,11 @@
       "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/",
       "relativePath": "",
       "extension": "",
-      "size": 256,
-      "prettySize": "256 B",
-      "modifiedTime": "2018-09-17T03:29:55.985Z",
-      "accessTime": "2018-10-16T17:29:04.346Z",
-      "changeTime": "2018-09-17T03:29:55.985Z",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2018-10-24T20:22:39.364Z",
+      "accessTime": "2018-10-24T20:23:02.182Z",
+      "changeTime": "2018-10-24T20:22:39.364Z",
       "birthTime": "2018-09-17T03:29:55.447Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src",
@@ -1081,20 +1081,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 8,
+      "nlink": 10,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8491608,
       "blocks": 0,
-      "atimeMs": 1539710944345.8857,
-      "mtimeMs": 1537154995985.2598,
-      "ctimeMs": 1537154995985.2598,
+      "atimeMs": 1540412582182.1855,
+      "mtimeMs": 1540412559363.9043,
+      "ctimeMs": 1540412559363.9043,
       "birthtimeMs": 1537154995446.801,
-      "atime": "2018-10-16T17:29:04.346Z",
-      "mtime": "2018-09-17T03:29:55.985Z",
-      "ctime": "2018-09-17T03:29:55.985Z",
+      "atime": "2018-10-24T20:23:02.182Z",
+      "mtime": "2018-10-24T20:22:39.364Z",
+      "ctime": "2018-10-24T20:22:39.364Z",
       "birthtime": "2018-09-17T03:29:55.447Z"
     },
     "7e2b4565-8bc6-582d-a0e4-2733eca1c3ea": {
@@ -1268,63 +1268,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "dd2c33b2-b49a-5f7c-bb70-30b130340324": {
-      "id": "dd2c33b2-b49a-5f7c-bb70-30b130340324",
-      "children": [
-        "a0d6ebbe-b309-5c18-a9f7-4039ce434234"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "b36261013bf5d34994e662c5a7f36382",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/gorts.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "img",
-      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/gorts.png",
-      "relativePath": "gorts.png",
-      "extension": "png",
-      "size": 2903526,
-      "prettySize": "2.9 MB",
-      "modifiedTime": "2018-09-13T01:52:25.174Z",
-      "accessTime": "2018-09-17T00:48:39.376Z",
-      "changeTime": "2018-09-13T01:52:25.174Z",
-      "birthTime": "2018-09-13T01:52:25.165Z",
-      "root": "/",
-      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
-      "base": "gorts.png",
-      "ext": ".png",
-      "name": "gorts",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8255732,
-      "blocks": 5672,
-      "atimeMs": 1537145319375.6182,
-      "mtimeMs": 1536803545174.45,
-      "ctimeMs": 1536803545174.45,
-      "birthtimeMs": 1536803545164.9868,
-      "atime": "2018-09-17T00:48:39.376Z",
-      "mtime": "2018-09-13T01:52:25.174Z",
-      "ctime": "2018-09-13T01:52:25.174Z",
-      "birthtime": "2018-09-13T01:52:25.165Z"
-    },
-    "a0d6ebbe-b309-5c18-a9f7-4039ce434234": {
-      "id": "a0d6ebbe-b309-5c18-a9f7-4039ce434234",
-      "children": [],
-      "parent": "dd2c33b2-b49a-5f7c-bb70-30b130340324",
-      "internal": {
-        "contentDigest": "b36261013bf5d34994e662c5a7f36382",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "60c271ab-5c1f-582f-ba81-99d926c54a88": {
       "id": "60c271ab-5c1f-582f-ba81-99d926c54a88",
       "children": [
@@ -1378,63 +1321,6 @@
       "parent": "60c271ab-5c1f-582f-ba81-99d926c54a88",
       "internal": {
         "contentDigest": "9e169fee3004f07f280a6be5393594f8",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "e4e96cff-ea28-5258-9524-b3f764d6f0d9": {
-      "id": "e4e96cff-ea28-5258-9524-b3f764d6f0d9",
-      "children": [
-        "56226373-1ffc-50b2-9b4e-f46aba94129e"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "eed05ee7c2fc36760cabf3162ae36aac",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/mystical-tutor.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "img",
-      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/mystical-tutor.png",
-      "relativePath": "mystical-tutor.png",
-      "extension": "png",
-      "size": 5727532,
-      "prettySize": "5.73 MB",
-      "modifiedTime": "2018-09-13T01:52:25.199Z",
-      "accessTime": "2018-09-17T00:48:39.376Z",
-      "changeTime": "2018-09-13T01:52:25.199Z",
-      "birthTime": "2018-09-13T01:52:25.178Z",
-      "root": "/",
-      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
-      "base": "mystical-tutor.png",
-      "ext": ".png",
-      "name": "mystical-tutor",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8255734,
-      "blocks": 11192,
-      "atimeMs": 1537145319375.664,
-      "mtimeMs": 1536803545199.3545,
-      "ctimeMs": 1536803545199.3545,
-      "birthtimeMs": 1536803545177.7495,
-      "atime": "2018-09-17T00:48:39.376Z",
-      "mtime": "2018-09-13T01:52:25.199Z",
-      "ctime": "2018-09-13T01:52:25.199Z",
-      "birthtime": "2018-09-13T01:52:25.178Z"
-    },
-    "56226373-1ffc-50b2-9b4e-f46aba94129e": {
-      "id": "56226373-1ffc-50b2-9b4e-f46aba94129e",
-      "children": [],
-      "parent": "e4e96cff-ea28-5258-9524-b3f764d6f0d9",
-      "internal": {
-        "contentDigest": "eed05ee7c2fc36760cabf3162ae36aac",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1632,6 +1518,63 @@
         "type": "ContentfulAsset",
         "contentDigest": "ab92e377fb4e889b22342d3aea77f8eb",
         "owner": "gatsby-source-contentful"
+      }
+    },
+    "e5ab8181-be28-5ef6-b3aa-be5d6e6022fd": {
+      "id": "e5ab8181-be28-5ef6-b3aa-be5d6e6022fd",
+      "children": [
+        "82571a31-4901-5024-841b-6b34379585c5"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "203a738652940b88884c3c0c572261e7",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/logo.png",
+      "relativePath": "logo.png",
+      "extension": "png",
+      "size": 20651,
+      "prettySize": "20.7 kB",
+      "modifiedTime": "2018-10-24T20:21:56.875Z",
+      "accessTime": "2018-10-24T20:22:43.563Z",
+      "changeTime": "2018-10-24T20:22:39.364Z",
+      "birthTime": "2018-10-24T20:21:56.875Z",
+      "root": "/",
+      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
+      "base": "logo.png",
+      "ext": ".png",
+      "name": "logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 9850358,
+      "blocks": 48,
+      "atimeMs": 1540412563562.7334,
+      "mtimeMs": 1540412516875.4495,
+      "ctimeMs": 1540412559363.904,
+      "birthtimeMs": 1540412516875.1455,
+      "atime": "2018-10-24T20:22:43.563Z",
+      "mtime": "2018-10-24T20:21:56.875Z",
+      "ctime": "2018-10-24T20:22:39.364Z",
+      "birthtime": "2018-10-24T20:21:56.875Z"
+    },
+    "82571a31-4901-5024-841b-6b34379585c5": {
+      "id": "82571a31-4901-5024-841b-6b34379585c5",
+      "children": [],
+      "parent": "e5ab8181-be28-5ef6-b3aa-be5d6e6022fd",
+      "internal": {
+        "contentDigest": "203a738652940b88884c3c0c572261e7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     },
     "SitePage /about/": {
