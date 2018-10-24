@@ -34,7 +34,6 @@ class Index extends Component {
               {
                 this.state.projects.map(({ name, icon }, i) => (
                   <div key={i}>
-                    <i className={icon}/>
                     <h2>{name}</h2>
                   </div>
                 ))
