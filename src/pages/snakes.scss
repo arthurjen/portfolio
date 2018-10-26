@@ -1,0 +1,37 @@
+:local(.snakes) {
+  padding-top: 13vh;
+  background: rgb(240, 240, 240);
+
+  img {
+    width: 200px;
+    
+  }
+
+  .screenshots {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .screenshots div {
+    width: 200px;
+    height: 400px;
+  }
+
+  .screenshots div:nth-child(1) {
+    background: no-repeat url("../assets/snakes-home-750.png");
+    background-size: contain;
+  }
+  .screenshots div:nth-child(2) {
+    background: no-repeat url("../assets/snakes-lobby-750.png");
+    background-size: contain;
+  }
+  .screenshots div:nth-child(3) {
+    background: no-repeat url("../assets/snakes-3-750.png");
+    background-size: contain;
+  }
+  .screenshots div:nth-child(4) {
+    background: no-repeat url("../assets/snakes-profile-750.png");
+    background-size: contain;
+  }
+ 
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Layout from '../components/layout';
+import { Link } from 'gatsby';
 import styles from './index.scss';
 
 class Index extends Component {
@@ -7,19 +8,19 @@ class Index extends Component {
     projects: [
       {
         name: 'Project GitGrub',
-        icon: 'far fa-lemon'
+        url: '/project-gitgrub'
       },
       {
         name: 'Bootcamp Companion',
-        icon: 'fas fa-tablet-alt'
+        url: '/bootcamp-companion'
       },
       {
         name: 'HALchemy',
-        icon: 'fas fa-robot'
+        url: '/halchemy'
       },
       {
         name: 'Snakes & Squirrels',
-        icon: 'fas fa-strikethrough'
+        url: '/snakes'
       },
     ]
   }
@@ -32,9 +33,11 @@ class Index extends Component {
           <main className={styles.app}>
             <section>
               {
-                this.state.projects.map(({ name, icon }, i) => (
+                this.state.projects.map(({ name, url }, i) => (
                   <div key={i}>
-                    <h2>{name}</h2>
+                    <Link to={url}>
+                      <h2>{name}</h2>
+                    </Link>
                   </div>
                 ))
               }

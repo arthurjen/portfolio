@@ -20,8 +20,8 @@
         "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "component---src-pages-project-js",
-        "jsonName": "project-3d8",
-        "path": "/project/"
+        "componentChunkName": "component---src-pages-snakes-js",
+        "jsonName": "snakes-036",
+        "path": "/snakes/"
     }
 ]

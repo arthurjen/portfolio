@@ -6,7 +6,7 @@ exports.components = {
   "component---src-pages-about-js": () => import("/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-contact-js": () => import("/Users/arthurjen/alchemy/401/portfolio/src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
   "component---src-pages-index-js": () => import("/Users/arthurjen/alchemy/401/portfolio/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-project-js": () => import("/Users/arthurjen/alchemy/401/portfolio/src/pages/project.js" /* webpackChunkName: "component---src-pages-project-js" */)
+  "component---src-pages-snakes-js": () => import("/Users/arthurjen/alchemy/401/portfolio/src/pages/snakes.js" /* webpackChunkName: "component---src-pages-snakes-js" */)
 }
 
 exports.data = () => import("/Users/arthurjen/alchemy/401/portfolio/.cache/data.json")
