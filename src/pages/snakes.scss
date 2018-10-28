@@ -1,20 +1,36 @@
 :local(.snakes) {
-  padding-top: 13vh;
+  padding: 13vh 5vw 0;
   background: rgb(240, 240, 240);
+  height: 100%;
 
-  img {
-    width: 200px;
-    
+
+  hgroup {
+    margin: 50px 0px;
+    text-align: center;
+
+  }
+
+  .description {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 8vw;
+  }
+
+
+  ul p {
+    font-size: .8em;
+    margin-bottom: 1em;
   }
 
   .screenshots {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .screenshots div {
     width: 200px;
     height: 400px;
+    margin: 2vw;
   }
 
   .screenshots div:nth-child(1) {
@@ -34,4 +50,16 @@
     background-size: contain;
   }
  
+
+  @media only screen and (max-width: 768px) {
+    .screenshots {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .description {
+      grid-template: min-content min-content / 1fr;
+      grid-gap: 8vh;
+    }
+  }
 }

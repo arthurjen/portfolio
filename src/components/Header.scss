@@ -8,6 +8,7 @@
   position: fixed;
   z-index: 10;
   padding: 0px 5vw;
+  background: rgba(220, 220, 220, 0.8);
 
   h1 {
     font: 5vh 'Playfair Display', serif;
@@ -51,9 +52,6 @@
       margin-left: 2em;
     }
   
-    i {
-      display: none;
-    }
   }
 
 }
