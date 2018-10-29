@@ -25,6 +25,11 @@
     height: 480px;
     margin: 2vw;
   }
+  
+  ul p {
+    font-size: .8em;
+    margin-bottom: 1em;
+  }
 
   .screenshots div:nth-child(1) {
     background: no-repeat url("../assets/halchemy-1.png");
