@@ -13,4 +13,37 @@
     grid-template-columns: 3fr 1fr;
     grid-gap: 8vw;
   }
+
+  .screenshots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screenshots div {
+    width: 800px;
+    height: 480px;
+    margin: 2vw;
+  }
+
+  .screenshots div:nth-child(1) {
+    background: no-repeat url("../assets/halchemy-1.png");
+    background-size: contain;
+  }
+  .screenshots div:nth-child(2) {
+    background: no-repeat url("../assets/halchemy-2.png");
+    background-size: contain;
+  }
+  .screenshots div:nth-child(3) {
+    background: no-repeat url("../assets/halchemy-3.png");
+    background-size: contain;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .screenshots div {
+      width: 90vw;
+      height: 54vw;
+      margin: 2vw;
+    }
+  }
 }

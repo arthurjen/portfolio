@@ -11,6 +11,8 @@ export default () => (
       <div className="description">
         <p>HALchemy is a chatbot game.</p>
         <ul>
+          <h4>Link:</h4>
+          <a href="https://halchemy.herokuapp.com">Website</a>
           <h4>Front End:</h4>
           <p>none</p>
           <h4>Back End:</h4>
@@ -18,7 +20,6 @@ export default () => (
         </ul>
       </div>
       <div className="screenshots">
-        <div></div>
         <div></div>
         <div></div>
         <div></div>

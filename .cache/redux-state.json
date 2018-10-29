@@ -2836,6 +2836,63 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
+    },
+    "dec1d4da-6626-545b-bab1-fe4d255f1a4e": {
+      "id": "dec1d4da-6626-545b-bab1-fe4d255f1a4e",
+      "children": [
+        "ea4a8257-3102-5b60-b964-9c5d29858426"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4821f2fc396d6c5c59665ec73ea0ef7a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/halchemy-1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/halchemy-1.png",
+      "relativePath": "halchemy-1.png",
+      "extension": "png",
+      "size": 41422,
+      "prettySize": "41.4 kB",
+      "modifiedTime": "2018-10-29T23:22:26.001Z",
+      "accessTime": "2018-10-29T23:22:27.792Z",
+      "changeTime": "2018-10-29T23:22:47.040Z",
+      "birthTime": "2018-10-29T23:22:25.990Z",
+      "root": "/",
+      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
+      "base": "halchemy-1.png",
+      "ext": ".png",
+      "name": "halchemy-1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33152,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 9912168,
+      "blocks": 88,
+      "atimeMs": 1540855347791.856,
+      "mtimeMs": 1540855346000.863,
+      "ctimeMs": 1540855367039.5818,
+      "birthtimeMs": 1540855345990.2158,
+      "atime": "2018-10-29T23:22:27.792Z",
+      "mtime": "2018-10-29T23:22:26.001Z",
+      "ctime": "2018-10-29T23:22:47.040Z",
+      "birthtime": "2018-10-29T23:22:25.990Z"
+    },
+    "ea4a8257-3102-5b60-b964-9c5d29858426": {
+      "id": "ea4a8257-3102-5b60-b964-9c5d29858426",
+      "children": [],
+      "parent": "dec1d4da-6626-545b-bab1-fe4d255f1a4e",
+      "internal": {
+        "contentDigest": "4821f2fc396d6c5c59665ec73ea0ef7a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     }
   },
   "status": {
