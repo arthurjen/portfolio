@@ -36,7 +36,7 @@ class Index extends Component {
                 this.state.projects.map(({ name, url }, i) => (
                   <div key={i}>
                     <Link to={url}>
-                      <h2>{name}</h2>
+                      {/* <h2>{name}</h2> */}
                     </Link>
                   </div>
                 ))
