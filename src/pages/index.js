@@ -8,11 +8,11 @@ class Index extends Component {
     projects: [
       {
         name: 'Project GitGrub',
-        url: '/project-gitgrub'
+        url: '/gitgrub'
       },
       {
         name: 'Bootcamp Companion',
-        url: '/bootcamp-companion'
+        url: '/companion'
       },
       {
         name: 'HALchemy',
@@ -34,11 +34,11 @@ class Index extends Component {
             <section>
               {
                 this.state.projects.map(({ name, url }, i) => (
-                  <div key={i}>
-                    <Link to={url}>
-                      {/* <h2>{name}</h2> */}
-                    </Link>
-                  </div>
+                  <Link key={i} to={url}>
+                    <div>
+                      <h2>{name}</h2>
+                    </div>
+                  </Link>
                 ))
               }
             </section>

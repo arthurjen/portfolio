@@ -2727,26 +2727,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /contact/": {
-      "jsonName": "contact-26a",
-      "internalComponentName": "ComponentContact",
-      "path": "/contact/",
-      "component": "/Users/arthurjen/alchemy/401/portfolio/src/pages/contact.js",
-      "componentChunkName": "component---src-pages-contact-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/contact.js",
-      "id": "SitePage /contact/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9dfa1f44409b488ec4f2fa7d59df9535",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /halchemy/": {
       "jsonName": "halchemy-6d6",
       "internalComponentName": "ComponentHalchemy",
@@ -2816,6 +2796,46 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
+    },
+    "SitePage /gitgrub/": {
+      "jsonName": "gitgrub-566",
+      "internalComponentName": "ComponentGitgrub",
+      "path": "/gitgrub/",
+      "component": "/Users/arthurjen/alchemy/401/portfolio/src/pages/gitgrub.js",
+      "componentChunkName": "component---src-pages-gitgrub-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/gitgrub.js",
+      "id": "SitePage /gitgrub/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ec0145cec01eb516dd2b72a32d31de8b",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /companion/": {
+      "jsonName": "companion-596",
+      "internalComponentName": "ComponentCompanion",
+      "path": "/companion/",
+      "component": "/Users/arthurjen/alchemy/401/portfolio/src/pages/companion.js",
+      "componentChunkName": "component---src-pages-companion-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/companion.js",
+      "id": "SitePage /companion/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "26165797865392460fabcf476a50eee3",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -2842,16 +2862,15 @@
     "project-3d8": "725/path---project-3-d-8-a3b-NZuapzHg3X9TaN1iIixfv1W23E",
     "snakes-and-squirrels-d15": "386/path---snakes-and-squirrels-d-15-88f-NZuapzHg3X9TaN1iIixfv1W23E",
     "snakes-036": "839/path---snakes-036-c91-NZuapzHg3X9TaN1iIixfv1W23E",
-    "halchemy-6d6": "706/path---halchemy-6-d-6-a35-NZuapzHg3X9TaN1iIixfv1W23E"
+    "halchemy-6d6": "706/path---halchemy-6-d-6-a35-NZuapzHg3X9TaN1iIixfv1W23E",
+    "bootcamp-companion-c8c": "326/path---bootcamp-companion-c-8-c-ef4-NZuapzHg3X9TaN1iIixfv1W23E",
+    "gitgrub-566": "125/path---gitgrub-566-d9e-NZuapzHg3X9TaN1iIixfv1W23E",
+    "companion-596": "760/path---companion-596-9d6-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js": {
       "query": "",
       "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js"
-    },
-    "/Users/arthurjen/alchemy/401/portfolio/src/pages/contact.js": {
-      "query": "",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/contact.js"
     },
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/index.js": {
       "query": "",
@@ -2868,6 +2887,14 @@
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/halchemy.js": {
       "query": "",
       "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/halchemy.js"
+    },
+    "/Users/arthurjen/alchemy/401/portfolio/src/pages/gitgrub.js": {
+      "query": "",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/gitgrub.js"
+    },
+    "/Users/arthurjen/alchemy/401/portfolio/src/pages/companion.js": {
+      "query": "",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/companion.js"
     }
   },
   "staticQueryComponents": {}

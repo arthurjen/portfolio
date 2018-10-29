@@ -9,11 +9,9 @@
     grid-gap: 3vw;
   }
 
-  section > div {
+  a > div {
     transition: all 0.3s ease;
     margin: 0px 1px;
-    display: grid;
-    grid-template: 1fr 3fr / 100%;
     text-align: center;
     background-size: contain;
   }
@@ -21,9 +19,8 @@
  
 
   h2 {
-    color: inherit;
-    font-size: .5em;
     height: 100%;
+    filter: opactity(0%);
   }
 
   i {
@@ -33,12 +30,12 @@
     justify-content: center;
   }
 
-  section div:hover {
+  section a div:hover {
     filter: brightness(1.5) grayscale(100%);
 
   }
 
-  section div a {
+  section a {
     transition: all .5s ease;
     text-decoration: none;
     color: white;
@@ -48,21 +45,25 @@
     transform: translateY(10px);
   }
 
-  section div:nth-child(1) {
+  section a:nth-child(1) {
     background: no-repeat url("../assets/gitgrub-large.png");
     background-size: contain;
+    background-position: center;
   }
-  section div:nth-child(2) {
+  section a:nth-child(2) {
     background: no-repeat url("../assets/bootcamp-large.png");
     background-size: contain;
-  }
-  section div:nth-child(3) {
+    background-position: center;
+    }
+  section a:nth-child(3) {
     background: no-repeat url("../assets/halchemy-large.png");
     background-size: contain;
+    background-position: center;
   }
-  section div:nth-child(4) {
+  section a:nth-child(4) {
     background: no-repeat url("../assets/snakes-large.png");
     background-size: contain;
+    background-position: center;
   }
 
   
