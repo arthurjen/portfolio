@@ -10,14 +10,19 @@
         "path": "/about/"
     },
     {
-        "componentChunkName": "component---src-pages-contact-js",
-        "jsonName": "contact-26a",
-        "path": "/contact/"
+        "componentChunkName": "component---src-pages-companion-js",
+        "jsonName": "companion-596",
+        "path": "/companion/"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-gitgrub-js",
+        "jsonName": "gitgrub-566",
+        "path": "/gitgrub/"
     },
     {
         "componentChunkName": "component---src-pages-halchemy-js",

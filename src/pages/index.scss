@@ -1,6 +1,7 @@
 :local(.app) {
   padding-top: 15vh;
   background: rgb(240, 240, 240);
+  
   section {
     display: grid;
     grid-template: 24vw 24vw / 45vw 45vw;
@@ -11,16 +12,16 @@
 
   a > div {
     transition: all 0.3s ease;
-    margin: 0px 1px;
     text-align: center;
-    background-size: contain;
   }
 
  
 
   h2 {
     height: 100%;
-    filter: opactity(0%);
+    filter: opacity(0%);
+    transition: all .5s ease;
+    text-shadow: 2px 2px 5px black; 
   }
 
   i {
@@ -30,10 +31,7 @@
     justify-content: center;
   }
 
-  section a div:hover {
-    filter: brightness(1.5) grayscale(100%);
-
-  }
+  
 
   section a {
     transition: all .5s ease;
@@ -41,9 +39,7 @@
     color: white;
     font-size: 2em;
   }
-  section div:hover h2 {
-    transform: translateY(10px);
-  }
+  
 
   section a:nth-child(1) {
     background: no-repeat url("../assets/gitgrub-large.png");
@@ -67,8 +63,13 @@
   }
 
   
-  
-  
+  section a:hover {
+    filter: brightness(1.5) grayscale(100%);
+  }
+
+  section a:hover h2 {
+    filter: opacity(1);
+  }
   
   // section > div > h2 {
   //   transition: all 0.5s ease;
