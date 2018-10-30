@@ -10,9 +10,9 @@
         "path": "/about/"
     },
     {
-        "componentChunkName": "component---src-pages-contact-js",
-        "jsonName": "contact-26a",
-        "path": "/contact/"
+        "componentChunkName": "component---src-pages-companion-js",
+        "jsonName": "companion-596",
+        "path": "/companion/"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
@@ -20,8 +20,18 @@
         "path": "/dev-404-page/"
     },
     {
-        "componentChunkName": "component---src-pages-project-js",
-        "jsonName": "project-3d8",
-        "path": "/project/"
+        "componentChunkName": "component---src-pages-gitgrub-js",
+        "jsonName": "gitgrub-566",
+        "path": "/gitgrub/"
+    },
+    {
+        "componentChunkName": "component---src-pages-halchemy-js",
+        "jsonName": "halchemy-6d6",
+        "path": "/halchemy/"
+    },
+    {
+        "componentChunkName": "component---src-pages-snakes-js",
+        "jsonName": "snakes-036",
+        "path": "/snakes/"
     }
 ]

@@ -1,93 +1,65 @@
 :local(.about) {
-  $orange: rgb(255, 190, 11);
-  $blue: rgb(21, 187, 253);
+  $orange: #ED873D;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5vh;
+  padding: 13vh 5vw 0 5vw;
+  height: 100%;
 
-  p, li {
+  .bio, .links, ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .bio > header > h2 {
+    margin: 20px;
+  }
+
+  section {
+    margin-bottom: 50px;
+  }
+
+
+  h2 {
+    font-size: 7vh;
+  }
+
+  em {
+    text-decoration: underline;
     color: $orange;
   }
 
-  h2, h3 {
-    color: rgb(21, 187, 253);
-    margin: 20px;
-  }
-
-  h2 {
-    font-size: 3em;
-  }
-
-  h3 {
-    font-size: 2em;
-  }
-
-  .bio {
-    width: 50vw;
-    height: 50vw;
-    border: 1px solid $blue;
-    text-align: right;
-  }
-
   p {
-    margin-top: 10px;
-    font-size: 1.2em;
+    font-size: 3vh;
   }
 
-  .bio > div {
-    text-align: left;
-    margin: 20px;
+
+  .links h2 {
+    margin: 0 10px;
   }
-  .skills {
-    position: fixed;
-    top: 55vh;
-    transform: translateX(40px);
-    width: 28vw;
-    height: 28vw;
-    border: 1px solid $blue;
+
+  .links ul h2 {
+    color: white;
+    margin: 0 20px 20px 20px;
   }
 
   ul {
-    margin: 20px;
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    grid-gap: 10px 10px;
+    padding: 20px;
+      
   }
 
-  @media only screen and (max-width: 768px) {
-    align-items: flex-start;
-    padding: 3vh;
-    .bio {
-      border: none;
-      width: 100%;
-      height: 100%;
-    }
+  i {
+    font-size: 3em;
+    color: $orange;
+  }
+ 
+  span {
+    padding: 7px 10px 10px 10px;
+  }
 
-    .skills {
-      border: none;
-      width: 100%;
-      height: 100%;
-      position: static;
-      transform: none;
-    }
-
-    p {
-      font-size: 1em;
-    }
-
-    h2, h3 {
-      border: 1px solid $blue;
-      padding: 5px;
-    }
-
-    h2 {
-      font-size: 2em;
-    }
-
-    h3 {
-      font-size: 1.5em;
-    }
+  li {
+    display: grid;
+    grid-template-columns: 80px auto;
   }
 }

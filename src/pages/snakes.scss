@@ -1,0 +1,67 @@
+:local(.snakes) {
+  padding-top: 13vh;
+  height: 100%;
+
+
+  hgroup {
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .description {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 8vw;
+    padding: 0 8vw 8vw;
+  }
+
+
+  ul p {
+    font-size: .8em;
+    margin-bottom: 1em;
+  }
+
+  .screenshots {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background: rgb(240, 240, 240);
+  }
+
+  .screenshots div {
+    width: 200px;
+    height: 400px;
+    margin: 2vw;
+  }
+
+  .screenshots div:nth-child(1) {
+    background: no-repeat url("../assets/snakes-home-750.png");
+    background-size: contain;
+  }
+  .screenshots div:nth-child(2) {
+    background: no-repeat url("../assets/snakes-lobby-750.png");
+    background-size: contain;
+  }
+  .screenshots div:nth-child(3) {
+    background: no-repeat url("../assets/snakes-3-750.png");
+    background-size: contain;
+  }
+  .screenshots div:nth-child(4) {
+    background: no-repeat url("../assets/snakes-profile-750.png");
+    background-size: contain;
+  }
+ 
+
+  @media only screen and (max-width: 768px) {
+    .screenshots {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .description {
+      grid-template: min-content min-content / 1fr;
+      grid-gap: 8vh;
+    }
+  }
+}
