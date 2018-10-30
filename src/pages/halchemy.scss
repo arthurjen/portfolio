@@ -1,17 +1,18 @@
 :local(.halchemy) {
   padding: 13vh 5vw 0;
-  background: rgb(240, 240, 240);
   height: 100%;
 
   hgroup {
     margin: 50px 0px;
     text-align: center;
+    font-size: 1.5em;
   }
 
   .description {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 8vw;
+    padding: 0 8vw 8vw;
   }
 
   .screenshots {
@@ -45,10 +46,19 @@
   }
 
   @media only screen and (max-width: 768px) {
+    .screenshots {
+      flex-direction: column;
+      align-items: center;
+    }
+
     .screenshots div {
       width: 90vw;
       height: 54vw;
       margin: 2vw;
+    }
+    .description {
+      grid-template: min-content min-content / 1fr;
+      grid-gap: 8vh;
     }
   }
 }
