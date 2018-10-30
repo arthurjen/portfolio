@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "fe2022d99eac6cd22b49799109c9f6f7",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -877,7 +886,7 @@
           },
           {
             "name": "gatsby-plugin-favicon",
-            "version": "next"
+            "version": "^3.1.4"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -1030,14 +1039,16 @@
     },
     "Site": {
       "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-30T04:51:01.470Z",
+      "buildTime": "2018-10-29T23:52:37.248Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "89accbbdbeffaaa92281b0d08a47d8fd",
+        "contentDigest": "93067a3562d306d0d35092dc7860a51a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1047,7 +1058,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "42cd59910e29fb035fc5f89881d0aec1",
+        "contentDigest": "eb8da7bd6f58c1fb9cc18595328f6326",
         "type": "Directory",
         "description": "Directory \"src/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -1056,11 +1067,11 @@
       "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/",
       "relativePath": "",
       "extension": "",
-      "size": 288,
-      "prettySize": "288 B",
-      "modifiedTime": "2018-10-30T04:49:01.228Z",
-      "accessTime": "2018-10-30T04:51:07.457Z",
-      "changeTime": "2018-10-30T04:49:01.228Z",
+      "size": 1056,
+      "prettySize": "1.06 kB",
+      "modifiedTime": "2018-10-29T23:50:53.979Z",
+      "accessTime": "2018-10-29T23:52:44.116Z",
+      "changeTime": "2018-10-29T23:50:53.979Z",
       "birthTime": "2018-09-17T03:29:55.447Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src",
@@ -1070,20 +1081,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 9,
+      "nlink": 33,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8491608,
       "blocks": 0,
-      "atimeMs": 1540875067457.248,
-      "mtimeMs": 1540874941227.776,
-      "ctimeMs": 1540874941227.776,
+      "atimeMs": 1540857164116.3708,
+      "mtimeMs": 1540857053978.9136,
+      "ctimeMs": 1540857053978.9136,
       "birthtimeMs": 1537154995446.801,
-      "atime": "2018-10-30T04:51:07.457Z",
-      "mtime": "2018-10-30T04:49:01.228Z",
-      "ctime": "2018-10-30T04:49:01.228Z",
+      "atime": "2018-10-29T23:52:44.116Z",
+      "mtime": "2018-10-29T23:50:53.979Z",
+      "ctime": "2018-10-29T23:50:53.979Z",
       "birthtime": "2018-09-17T03:29:55.447Z"
     },
     "7e2b4565-8bc6-582d-a0e4-2733eca1c3ea": {
@@ -1105,10 +1116,10 @@
       "extension": "png",
       "size": 59474,
       "prettySize": "59.5 kB",
-      "modifiedTime": "2018-09-17T03:29:55.985Z",
-      "accessTime": "2018-10-29T23:52:44.815Z",
-      "changeTime": "2018-09-17T03:29:55.985Z",
-      "birthTime": "2018-09-17T03:29:55.985Z",
+      "modifiedTime": "2018-09-13T01:52:25.149Z",
+      "accessTime": "2018-09-17T00:48:39.376Z",
+      "changeTime": "2018-09-13T01:52:25.149Z",
+      "birthTime": "2018-09-13T01:52:25.149Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
       "base": "booxy.png",
@@ -1122,16 +1133,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8491635,
+      "ino": 8255729,
       "blocks": 120,
-      "atimeMs": 1540857164815.2878,
-      "mtimeMs": 1537154995985.3076,
-      "ctimeMs": 1537154995985.3076,
-      "birthtimeMs": 1537154995985.254,
-      "atime": "2018-10-29T23:52:44.815Z",
-      "mtime": "2018-09-17T03:29:55.985Z",
-      "ctime": "2018-09-17T03:29:55.985Z",
-      "birthtime": "2018-09-17T03:29:55.985Z"
+      "atimeMs": 1537145319375.5427,
+      "mtimeMs": 1536803545148.866,
+      "ctimeMs": 1536803545148.866,
+      "birthtimeMs": 1536803545148.6206,
+      "atime": "2018-09-17T00:48:39.376Z",
+      "mtime": "2018-09-13T01:52:25.149Z",
+      "ctime": "2018-09-13T01:52:25.149Z",
+      "birthtime": "2018-09-13T01:52:25.149Z"
     },
     "6606b3c2-9326-5859-8072-11cc974e1c3a": {
       "id": "6606b3c2-9326-5859-8072-11cc974e1c3a",
@@ -1139,120 +1150,6 @@
       "parent": "7e2b4565-8bc6-582d-a0e4-2733eca1c3ea",
       "internal": {
         "contentDigest": "77ef76a7060c95e47b8576b18de95792",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "dd2c33b2-b49a-5f7c-bb70-30b130340324": {
-      "id": "dd2c33b2-b49a-5f7c-bb70-30b130340324",
-      "children": [
-        "a0d6ebbe-b309-5c18-a9f7-4039ce434234"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "b36261013bf5d34994e662c5a7f36382",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/gorts.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "img",
-      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/gorts.png",
-      "relativePath": "gorts.png",
-      "extension": "png",
-      "size": 2903526,
-      "prettySize": "2.9 MB",
-      "modifiedTime": "2018-10-30T04:49:01.227Z",
-      "accessTime": "2018-10-30T04:49:15.799Z",
-      "changeTime": "2018-10-30T04:49:01.227Z",
-      "birthTime": "2018-10-30T04:49:01.197Z",
-      "root": "/",
-      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
-      "base": "gorts.png",
-      "ext": ".png",
-      "name": "gorts",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 9919930,
-      "blocks": 5672,
-      "atimeMs": 1540874955799.4553,
-      "mtimeMs": 1540874941226.8882,
-      "ctimeMs": 1540874941226.8882,
-      "birthtimeMs": 1540874941197.113,
-      "atime": "2018-10-30T04:49:15.799Z",
-      "mtime": "2018-10-30T04:49:01.227Z",
-      "ctime": "2018-10-30T04:49:01.227Z",
-      "birthtime": "2018-10-30T04:49:01.197Z"
-    },
-    "a0d6ebbe-b309-5c18-a9f7-4039ce434234": {
-      "id": "a0d6ebbe-b309-5c18-a9f7-4039ce434234",
-      "children": [],
-      "parent": "dd2c33b2-b49a-5f7c-bb70-30b130340324",
-      "internal": {
-        "contentDigest": "b36261013bf5d34994e662c5a7f36382",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "30295435-054e-5731-8a21-5a77ea170178": {
-      "id": "30295435-054e-5731-8a21-5a77ea170178",
-      "children": [
-        "e835a987-6b64-57be-859e-05db1b921b5f"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "9e1fd7b74a7c57927ec82af0fe114045",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/companion-app.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "img",
-      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/companion-app.png",
-      "relativePath": "companion-app.png",
-      "extension": "png",
-      "size": 406077,
-      "prettySize": "406 kB",
-      "modifiedTime": "2018-09-17T03:29:55.984Z",
-      "accessTime": "2018-10-29T23:52:44.815Z",
-      "changeTime": "2018-09-17T03:29:55.984Z",
-      "birthTime": "2018-09-17T03:29:55.984Z",
-      "root": "/",
-      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
-      "base": "companion-app.png",
-      "ext": ".png",
-      "name": "companion-app",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8491634,
-      "blocks": 800,
-      "atimeMs": 1540857164815.294,
-      "mtimeMs": 1537154995983.8132,
-      "ctimeMs": 1537154995983.8132,
-      "birthtimeMs": 1537154995983.698,
-      "atime": "2018-10-29T23:52:44.815Z",
-      "mtime": "2018-09-17T03:29:55.984Z",
-      "ctime": "2018-09-17T03:29:55.984Z",
-      "birthtime": "2018-09-17T03:29:55.984Z"
-    },
-    "e835a987-6b64-57be-859e-05db1b921b5f": {
-      "id": "e835a987-6b64-57be-859e-05db1b921b5f",
-      "children": [],
-      "parent": "30295435-054e-5731-8a21-5a77ea170178",
-      "internal": {
-        "contentDigest": "9e1fd7b74a7c57927ec82af0fe114045",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1276,10 +1173,10 @@
       "extension": "png",
       "size": 390090,
       "prettySize": "390 kB",
-      "modifiedTime": "2018-09-17T03:29:55.953Z",
-      "accessTime": "2018-10-29T23:52:44.815Z",
-      "changeTime": "2018-09-17T03:29:55.953Z",
-      "birthTime": "2018-09-17T03:29:55.953Z",
+      "modifiedTime": "2018-09-13T01:52:25.177Z",
+      "accessTime": "2018-09-17T00:48:39.376Z",
+      "changeTime": "2018-09-13T01:52:25.177Z",
+      "birthTime": "2018-09-13T01:52:25.175Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
       "base": "halchemy.png",
@@ -1293,16 +1190,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8491631,
+      "ino": 8255733,
       "blocks": 768,
-      "atimeMs": 1540857164815.3462,
-      "mtimeMs": 1537154995952.8792,
-      "ctimeMs": 1537154995952.8792,
-      "birthtimeMs": 1537154995952.75,
-      "atime": "2018-10-29T23:52:44.815Z",
-      "mtime": "2018-09-17T03:29:55.953Z",
-      "ctime": "2018-09-17T03:29:55.953Z",
-      "birthtime": "2018-09-17T03:29:55.953Z"
+      "atimeMs": 1537145319375.6409,
+      "mtimeMs": 1536803545177.399,
+      "ctimeMs": 1536803545177.399,
+      "birthtimeMs": 1536803545175.2917,
+      "atime": "2018-09-17T00:48:39.376Z",
+      "mtime": "2018-09-13T01:52:25.177Z",
+      "ctime": "2018-09-13T01:52:25.177Z",
+      "birthtime": "2018-09-13T01:52:25.175Z"
     },
     "0946ec31-2da5-5e19-83ad-b1066d7e77c5": {
       "id": "0946ec31-2da5-5e19-83ad-b1066d7e77c5",
@@ -1314,34 +1211,34 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "e4e96cff-ea28-5258-9524-b3f764d6f0d9": {
-      "id": "e4e96cff-ea28-5258-9524-b3f764d6f0d9",
+    "30295435-054e-5731-8a21-5a77ea170178": {
+      "id": "30295435-054e-5731-8a21-5a77ea170178",
       "children": [
-        "56226373-1ffc-50b2-9b4e-f46aba94129e"
+        "e835a987-6b64-57be-859e-05db1b921b5f"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "eed05ee7c2fc36760cabf3162ae36aac",
+        "contentDigest": "9e1fd7b74a7c57927ec82af0fe114045",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src/assets/mystical-tutor.png\"",
+        "description": "File \"src/assets/companion-app.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "img",
-      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/mystical-tutor.png",
-      "relativePath": "mystical-tutor.png",
+      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/companion-app.png",
+      "relativePath": "companion-app.png",
       "extension": "png",
-      "size": 5727532,
-      "prettySize": "5.73 MB",
-      "modifiedTime": "2018-10-30T04:49:01.315Z",
-      "accessTime": "2018-10-30T04:49:15.804Z",
-      "changeTime": "2018-10-30T04:49:01.315Z",
-      "birthTime": "2018-10-30T04:49:01.228Z",
+      "size": 406077,
+      "prettySize": "406 kB",
+      "modifiedTime": "2018-09-13T01:52:25.151Z",
+      "accessTime": "2018-09-17T00:48:39.376Z",
+      "changeTime": "2018-09-13T01:52:25.151Z",
+      "birthTime": "2018-09-13T01:52:25.149Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
-      "base": "mystical-tutor.png",
+      "base": "companion-app.png",
       "ext": ".png",
-      "name": "mystical-tutor",
+      "name": "companion-app",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1350,23 +1247,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 9919931,
-      "blocks": 11192,
-      "atimeMs": 1540874955803.8723,
-      "mtimeMs": 1540874941315.2075,
-      "ctimeMs": 1540874941315.2075,
-      "birthtimeMs": 1540874941227.766,
-      "atime": "2018-10-30T04:49:15.804Z",
-      "mtime": "2018-10-30T04:49:01.315Z",
-      "ctime": "2018-10-30T04:49:01.315Z",
-      "birthtime": "2018-10-30T04:49:01.228Z"
+      "ino": 8255730,
+      "blocks": 800,
+      "atimeMs": 1537145319375.5706,
+      "mtimeMs": 1536803545151.2463,
+      "ctimeMs": 1536803545151.2463,
+      "birthtimeMs": 1536803545148.9602,
+      "atime": "2018-09-17T00:48:39.376Z",
+      "mtime": "2018-09-13T01:52:25.151Z",
+      "ctime": "2018-09-13T01:52:25.151Z",
+      "birthtime": "2018-09-13T01:52:25.149Z"
     },
-    "56226373-1ffc-50b2-9b4e-f46aba94129e": {
-      "id": "56226373-1ffc-50b2-9b4e-f46aba94129e",
+    "e835a987-6b64-57be-859e-05db1b921b5f": {
+      "id": "e835a987-6b64-57be-859e-05db1b921b5f",
       "children": [],
-      "parent": "e4e96cff-ea28-5258-9524-b3f764d6f0d9",
+      "parent": "30295435-054e-5731-8a21-5a77ea170178",
       "internal": {
-        "contentDigest": "eed05ee7c2fc36760cabf3162ae36aac",
+        "contentDigest": "9e1fd7b74a7c57927ec82af0fe114045",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1390,10 +1287,10 @@
       "extension": "png",
       "size": 3431390,
       "prettySize": "3.43 MB",
-      "modifiedTime": "2018-09-17T03:29:55.975Z",
-      "accessTime": "2018-10-29T23:52:44.815Z",
-      "changeTime": "2018-09-17T03:29:55.975Z",
-      "birthTime": "2018-09-17T03:29:55.975Z",
+      "modifiedTime": "2018-09-13T01:52:25.164Z",
+      "accessTime": "2018-09-17T00:48:39.376Z",
+      "changeTime": "2018-09-13T01:52:25.164Z",
+      "birthTime": "2018-09-13T01:52:25.152Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
       "base": "gitgrub.png",
@@ -1407,16 +1304,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8491633,
+      "ino": 8255731,
       "blocks": 6704,
-      "atimeMs": 1540857164815.317,
-      "mtimeMs": 1537154995975.3633,
-      "ctimeMs": 1537154995975.3633,
-      "birthtimeMs": 1537154995974.7305,
-      "atime": "2018-10-29T23:52:44.815Z",
-      "mtime": "2018-09-17T03:29:55.975Z",
-      "ctime": "2018-09-17T03:29:55.975Z",
-      "birthtime": "2018-09-17T03:29:55.975Z"
+      "atimeMs": 1537145319375.5947,
+      "mtimeMs": 1536803545164.0542,
+      "ctimeMs": 1536803545164.0542,
+      "birthtimeMs": 1536803545151.5193,
+      "atime": "2018-09-17T00:48:39.376Z",
+      "mtime": "2018-09-13T01:52:25.164Z",
+      "ctime": "2018-09-13T01:52:25.164Z",
+      "birthtime": "2018-09-13T01:52:25.152Z"
     },
     "0f7b2b5f-aabe-5338-be6c-aa8a1e80eb59": {
       "id": "0f7b2b5f-aabe-5338-be6c-aa8a1e80eb59",
@@ -1643,26 +1540,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /contact/": {
-      "jsonName": "contact-26a",
-      "internalComponentName": "ComponentContact",
-      "path": "/contact/",
-      "component": "/Users/arthurjen/alchemy/401/portfolio/src/pages/contact.js",
-      "componentChunkName": "component---src-pages-contact-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/contact.js",
-      "id": "SitePage /contact/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9dfa1f44409b488ec4f2fa7d59df9535",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -1683,57 +1560,278 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /project/": {
-      "jsonName": "project-3d8",
-      "internalComponentName": "ComponentProject",
-      "path": "/project/",
-      "component": "/Users/arthurjen/alchemy/401/portfolio/src/pages/project.js",
-      "componentChunkName": "component---src-pages-project-js",
+    "9676b594-8c85-50f3-8f2a-38cf5a7ec1e4": {
+      "id": "9676b594-8c85-50f3-8f2a-38cf5a7ec1e4",
+      "children": [
+        "f0edaf4c-1f9c-510e-9b28-52e2ee7e60bb"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ce0d75f19b238683cbd7513630493584",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/companion-1.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/companion-1.png",
+      "relativePath": "companion-1.png",
+      "extension": "png",
+      "size": 301988,
+      "prettySize": "302 kB",
+      "modifiedTime": "2018-10-30T00:09:36.402Z",
+      "accessTime": "2018-10-30T00:09:36.370Z",
+      "changeTime": "2018-10-30T00:09:36.403Z",
+      "birthTime": "2018-10-30T00:09:36.370Z",
+      "root": "/",
+      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
+      "base": "companion-1.png",
+      "ext": ".png",
+      "name": "companion-1",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33152,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 9913923,
+      "blocks": 592,
+      "atimeMs": 1540858176369.694,
+      "mtimeMs": 1540858176402.1865,
+      "ctimeMs": 1540858176403.2212,
+      "birthtimeMs": 1540858176369.694,
+      "atime": "2018-10-30T00:09:36.370Z",
+      "mtime": "2018-10-30T00:09:36.402Z",
+      "ctime": "2018-10-30T00:09:36.403Z",
+      "birthtime": "2018-10-30T00:09:36.370Z"
+    },
+    "f0edaf4c-1f9c-510e-9b28-52e2ee7e60bb": {
+      "id": "f0edaf4c-1f9c-510e-9b28-52e2ee7e60bb",
+      "children": [],
+      "parent": "9676b594-8c85-50f3-8f2a-38cf5a7ec1e4",
+      "internal": {
+        "contentDigest": "ce0d75f19b238683cbd7513630493584",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "45b8e74a-7cf7-5b49-a481-feca833990dd": {
+      "id": "45b8e74a-7cf7-5b49-a481-feca833990dd",
+      "children": [
+        "7b64f093-a4c6-579e-90b7-b5d841e4f6f5"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "634390f10f6079493496ccadace6a09a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/companion-3.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/companion-3.png",
+      "relativePath": "companion-3.png",
+      "extension": "png",
+      "size": 131541,
+      "prettySize": "132 kB",
+      "modifiedTime": "2018-10-30T00:10:36.441Z",
+      "accessTime": "2018-10-30T00:10:36.399Z",
+      "changeTime": "2018-10-30T00:10:36.463Z",
+      "birthTime": "2018-10-30T00:10:36.399Z",
+      "root": "/",
+      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
+      "base": "companion-3.png",
+      "ext": ".png",
+      "name": "companion-3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33152,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 9913932,
+      "blocks": 264,
+      "atimeMs": 1540858236398.8977,
+      "mtimeMs": 1540858236440.8115,
+      "ctimeMs": 1540858236463.174,
+      "birthtimeMs": 1540858236398.8977,
+      "atime": "2018-10-30T00:10:36.399Z",
+      "mtime": "2018-10-30T00:10:36.441Z",
+      "ctime": "2018-10-30T00:10:36.463Z",
+      "birthtime": "2018-10-30T00:10:36.399Z"
+    },
+    "7b64f093-a4c6-579e-90b7-b5d841e4f6f5": {
+      "id": "7b64f093-a4c6-579e-90b7-b5d841e4f6f5",
+      "children": [],
+      "parent": "45b8e74a-7cf7-5b49-a481-feca833990dd",
+      "internal": {
+        "contentDigest": "634390f10f6079493496ccadace6a09a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /companion/": {
+      "jsonName": "companion-596",
+      "internalComponentName": "ComponentCompanion",
+      "path": "/companion/",
+      "component": "/Users/arthurjen/alchemy/401/portfolio/src/pages/companion.js",
+      "componentChunkName": "component---src-pages-companion-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/project.js",
-      "id": "SitePage /project/",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/companion.js",
+      "id": "SitePage /companion/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0169e25719d484794c1545b63cb50faf",
+        "contentDigest": "26165797865392460fabcf476a50eee3",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /gitgrub/": {
+      "jsonName": "gitgrub-566",
+      "internalComponentName": "ComponentGitgrub",
+      "path": "/gitgrub/",
+      "component": "/Users/arthurjen/alchemy/401/portfolio/src/pages/gitgrub.js",
+      "componentChunkName": "component---src-pages-gitgrub-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/gitgrub.js",
+      "id": "SitePage /gitgrub/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ec0145cec01eb516dd2b72a32d31de8b",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /halchemy/": {
+      "jsonName": "halchemy-6d6",
+      "internalComponentName": "ComponentHalchemy",
+      "path": "/halchemy/",
+      "component": "/Users/arthurjen/alchemy/401/portfolio/src/pages/halchemy.js",
+      "componentChunkName": "component---src-pages-halchemy-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/halchemy.js",
+      "id": "SitePage /halchemy/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cd66afe27f3ea99c91482d31ae5e3f73",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /snakes/": {
+      "jsonName": "snakes-036",
+      "internalComponentName": "ComponentSnakes",
+      "path": "/snakes/",
+      "component": "/Users/arthurjen/alchemy/401/portfolio/src/pages/snakes.js",
+      "componentChunkName": "component---src-pages-snakes-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/snakes.js",
+      "id": "SitePage /snakes/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f5fe3aede3ed9d409738d97ebd9a194d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "2787bf7c-8a61-5382-a109-e944c33cae5d": {
+      "id": "2787bf7c-8a61-5382-a109-e944c33cae5d",
+      "children": [
+        "f584efc8-f6a2-569a-ad99-1ec6b3cc7b9c"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "033de9896e58f489ee4ed71d840b2c5b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/companipon-2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/companipon-2.png",
+      "relativePath": "companipon-2.png",
+      "extension": "png",
+      "size": 83647,
+      "prettySize": "83.6 kB",
+      "modifiedTime": "2018-10-30T00:12:06.069Z",
+      "accessTime": "2018-10-30T00:12:06.036Z",
+      "changeTime": "2018-10-30T00:12:06.083Z",
+      "birthTime": "2018-10-30T00:12:06.036Z",
+      "root": "/",
+      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
+      "base": "companipon-2.png",
+      "ext": ".png",
+      "name": "companipon-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33152,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 9913990,
+      "blocks": 168,
+      "atimeMs": 1540858326035.8733,
+      "mtimeMs": 1540858326069.3518,
+      "ctimeMs": 1540858326083.1846,
+      "birthtimeMs": 1540858326035.8733,
+      "atime": "2018-10-30T00:12:06.036Z",
+      "mtime": "2018-10-30T00:12:06.069Z",
+      "ctime": "2018-10-30T00:12:06.083Z",
+      "birthtime": "2018-10-30T00:12:06.036Z"
+    },
+    "f584efc8-f6a2-569a-ad99-1ec6b3cc7b9c": {
+      "id": "f584efc8-f6a2-569a-ad99-1ec6b3cc7b9c",
+      "children": [],
+      "parent": "2787bf7c-8a61-5382-a109-e944c33cae5d",
+      "internal": {
+        "contentDigest": "033de9896e58f489ee4ed71d840b2c5b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "dc3fcee9bfb03c97cf98af57c8b14c2a"
+    "PLUGINS_HASH": "ecd713eebba378c41fa7b4171f5a0059"
   },
   "componentDataDependencies": {
     "nodes": {
-      "454591e8-02fc-59f6-9a50-04ae24879a03": [
-        "/"
-      ],
-      "a2c43c40-354a-5ae3-a48f-c8e1c9a0d418": [
-        "/"
-      ],
-      "ad496919-e637-5ccc-9a55-b8877485989d": [
-        "/"
-      ],
-      "27376b18-3c13-5efd-bf09-901d6c794886": [
-        "/"
-      ]
+      "454591e8-02fc-59f6-9a50-04ae24879a03": [],
+      "a2c43c40-354a-5ae3-a48f-c8e1c9a0d418": [],
+      "ad496919-e637-5ccc-9a55-b8877485989d": [],
+      "27376b18-3c13-5efd-bf09-901d6c794886": []
     },
     "connections": {
-      "ContentfulProject": [
-        "/"
-      ]
+      "ContentfulProject": []
     }
   },
   "jsonDataPaths": {
     "canvas-0d3": "530/path---canvas-0-d-3-9e9-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "about-f34": "576/path---about-f-34-4c2-Kn4eq1gOcmqCOc9AMQhmxQmFOwM",
-    "index": "657/path---index-6a9-94qP5VhxyJcOeiFx2pvMkyQEQXQ",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "project-3d8": "725/path---project-3-d-8-a3b-NZuapzHg3X9TaN1iIixfv1W23E",
     "snakes-and-squirrels-d15": "386/path---snakes-and-squirrels-d-15-88f-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -1745,20 +1843,32 @@
   },
   "components": {
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js": {
-      "query": "query usersArthurjenAlchemy401PortfolioSrcPagesAboutJs2967164696 {\n  file(relativePath: {eq: \"src/assets/Rubick_icon.png\"}) {\n    childImageSharp {\n      fixed(width: 125, height: 125) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "query": "",
       "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js"
     },
-    "/Users/arthurjen/alchemy/401/portfolio/src/pages/contact.js": {
-      "query": "",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/contact.js"
-    },
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/index.js": {
-      "query": "query usersArthurjenAlchemy401PortfolioSrcPagesIndexJs692706430 {\n  allContentfulProject {\n    edges {\n      node {\n        id\n        title\n        github\n        description {\n          description\n        }\n        deployedSite\n        monthYear\n        technologies\n        summary\n        image {\n          file {\n            url\n          }\n        }\n        splash {\n          file {\n            url\n          }\n        }\n      }\n    }\n  }\n}\n",
+      "query": "",
       "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/index.js"
     },
-    "/Users/arthurjen/alchemy/401/portfolio/src/pages/project.js": {
+    "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/project.js"
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js"
+    },
+    "/Users/arthurjen/alchemy/401/portfolio/src/pages/companion.js": {
+      "query": "",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/companion.js"
+    },
+    "/Users/arthurjen/alchemy/401/portfolio/src/pages/gitgrub.js": {
+      "query": "",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/gitgrub.js"
+    },
+    "/Users/arthurjen/alchemy/401/portfolio/src/pages/halchemy.js": {
+      "query": "",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/halchemy.js"
+    },
+    "/Users/arthurjen/alchemy/401/portfolio/src/pages/snakes.js": {
+      "query": "",
+      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/snakes.js"
     }
   },
   "staticQueryComponents": {}

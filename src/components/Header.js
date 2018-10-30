@@ -1,38 +1,33 @@
-import React from "react"
+import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import styles from './Header.scss';
 
-export default () => (
-  <header className={styles.header}>
-    <hgroup>
-      <h1>Arthur Jen</h1>
-    </hgroup>
-    <nav>
-      <Link activeStyle={{ borderBottom: '4px solid rgb(21, 187, 253)' }} to="/">Projects</Link>
-      <Link activeStyle={{ borderBottom: '4px solid rgb(21, 187, 253)' }} to="/about">About</Link>
-      <Link activeStyle={{ borderBottom: '4px solid rgb(21, 187, 253)' }} to="/contact">Contact</Link>
-    </nav>
-    <ul>
-      <li>
-        <a href="mailto:arthurljen@gmail.com">
-          <abbr title="Email"><i className="fas fa-envelope-square"></i></abbr>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/arthurjen/">
-          <abbr title="Linkedin"><i className="fab fa-linkedin"></i></abbr>
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/arthurjen">
-          <abbr title="Github"><i className="fab fa-github-square"></i></abbr>
-        </a>
-      </li>
-      <li>
-        <a href="https://steamcommunity.com/id/wallaroo">
-        <abbr title="Let's play some Dota!"><i className="fab fa-steam-square"></i></abbr>
-        </a>
-      </li>
-    </ul>
-  </header>
-)
+
+class Header extends Component {
+  state = {
+    menu: false
+  };
+
+  render() { 
+
+    const activeLink = {
+      background: 'rgba(255, 211, 20, 0.5)'
+
+    }
+
+    return (
+      <header className={styles.header}>
+        <Link to="/">
+          <div className="logo"></div>
+        </Link>
+        <nav>
+          <Link activeStyle={activeLink} to="/">work</Link>
+          <Link activeStyle={activeLink} to="/about/">about</Link>
+        </nav>
+      </header>
+    );
+  }
+}
+ 
+export default Header;
+  
