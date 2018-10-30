@@ -9,7 +9,7 @@ export default () => (
         <h1>Bootcamp Companion App</h1>
       </hgroup>
       <div className="description">
-        <p>Bootcamp Companion App helps make life at Alchemy better.</p>
+        <p>Bootcamp Companion App helps make life at Alchemy Code Lab better. Everyone can contribute resources and advice to help each other. Upvote, save, and comment on cool topics. I had a blast making this with Easton Gorishek, Ryan Luras, and Antreo Pukay.</p>
         <ul>
           <h4>Link:</h4>
           <p>

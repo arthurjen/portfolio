@@ -9,7 +9,7 @@ export default () => (
         <h1>HALchemy</h1>
       </hgroup>
       <div className="description">
-        <p>HALchemy is a chatbot game. Primarily built as a back end project, HALchemy integrates wit.ai to parse user intents. Whatever you type, HAL first figures out what you mean before delivering the perfect response! Shoutout to Sarah Rehmer and Mark Myers for making this a possibility.</p>
+        <p>HALchemy is a chatbot space simulation game. Primarily built as a back end project, HALchemy integrates wit.ai to parse user intents. Whatever you type, HAL first figures out what you mean before delivering the perfect response! Shoutout to Sarah Rehmer and Mark Myers for making this possible.</p>
         <ul>
           <h4>Link:</h4>
           <p>

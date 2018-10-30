@@ -9,7 +9,7 @@ export default () => (
         <h1>Project Gitgrub</h1>
       </hgroup>
       <div className="description">
-        <p>Project Gitgrub.</p>
+        <p>My very first collaborative project, completed with Ryan Luras, Mark Myers, and Zach Tahsuda. We made a cooking gameshow game where players choose ingredients to make specific recipes. All the art was drawn by our very own Ryan Luras.</p>
         <ul>
           <h4>Link:</h4>
           <p>
