@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fe2022d99eac6cd22b49799109c9f6f7",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -886,7 +877,7 @@
           },
           {
             "name": "gatsby-plugin-favicon",
-            "version": "^3.1.4"
+            "version": "next"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -1039,16 +1030,14 @@
     },
     "Site": {
       "siteMetadata": {},
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-02T22:21:23.910Z",
+      "buildTime": "2018-10-30T04:51:01.470Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "979869782b05022cbdd55213fa14b277",
+        "contentDigest": "89accbbdbeffaaa92281b0d08a47d8fd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1058,7 +1047,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "79166f44d2a45cb9eb9aa6619f405bd9",
+        "contentDigest": "42cd59910e29fb035fc5f89881d0aec1",
         "type": "Directory",
         "description": "Directory \"src/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -1067,11 +1056,11 @@
       "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/",
       "relativePath": "",
       "extension": "",
-      "size": 256,
-      "prettySize": "256 B",
-      "modifiedTime": "2018-09-17T03:29:55.985Z",
-      "accessTime": "2018-10-02T22:21:25.824Z",
-      "changeTime": "2018-09-17T03:29:55.985Z",
+      "size": 288,
+      "prettySize": "288 B",
+      "modifiedTime": "2018-10-30T04:49:01.228Z",
+      "accessTime": "2018-10-30T04:51:07.457Z",
+      "changeTime": "2018-10-30T04:49:01.228Z",
       "birthTime": "2018-09-17T03:29:55.447Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src",
@@ -1081,20 +1070,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 8,
+      "nlink": 9,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
       "ino": 8491608,
       "blocks": 0,
-      "atimeMs": 1538518885824.4238,
-      "mtimeMs": 1537154995985.2598,
-      "ctimeMs": 1537154995985.2598,
+      "atimeMs": 1540875067457.248,
+      "mtimeMs": 1540874941227.776,
+      "ctimeMs": 1540874941227.776,
       "birthtimeMs": 1537154995446.801,
-      "atime": "2018-10-02T22:21:25.824Z",
-      "mtime": "2018-09-17T03:29:55.985Z",
-      "ctime": "2018-09-17T03:29:55.985Z",
+      "atime": "2018-10-30T04:51:07.457Z",
+      "mtime": "2018-10-30T04:49:01.228Z",
+      "ctime": "2018-10-30T04:49:01.228Z",
       "birthtime": "2018-09-17T03:29:55.447Z"
     },
     "7e2b4565-8bc6-582d-a0e4-2733eca1c3ea": {
@@ -1116,10 +1105,10 @@
       "extension": "png",
       "size": 59474,
       "prettySize": "59.5 kB",
-      "modifiedTime": "2018-09-13T01:52:25.149Z",
-      "accessTime": "2018-09-17T00:48:39.376Z",
-      "changeTime": "2018-09-13T01:52:25.149Z",
-      "birthTime": "2018-09-13T01:52:25.149Z",
+      "modifiedTime": "2018-09-17T03:29:55.985Z",
+      "accessTime": "2018-10-29T23:52:44.815Z",
+      "changeTime": "2018-09-17T03:29:55.985Z",
+      "birthTime": "2018-09-17T03:29:55.985Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
       "base": "booxy.png",
@@ -1133,16 +1122,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8255729,
+      "ino": 8491635,
       "blocks": 120,
-      "atimeMs": 1537145319375.5427,
-      "mtimeMs": 1536803545148.866,
-      "ctimeMs": 1536803545148.866,
-      "birthtimeMs": 1536803545148.6206,
-      "atime": "2018-09-17T00:48:39.376Z",
-      "mtime": "2018-09-13T01:52:25.149Z",
-      "ctime": "2018-09-13T01:52:25.149Z",
-      "birthtime": "2018-09-13T01:52:25.149Z"
+      "atimeMs": 1540857164815.2878,
+      "mtimeMs": 1537154995985.3076,
+      "ctimeMs": 1537154995985.3076,
+      "birthtimeMs": 1537154995985.254,
+      "atime": "2018-10-29T23:52:44.815Z",
+      "mtime": "2018-09-17T03:29:55.985Z",
+      "ctime": "2018-09-17T03:29:55.985Z",
+      "birthtime": "2018-09-17T03:29:55.985Z"
     },
     "6606b3c2-9326-5859-8072-11cc974e1c3a": {
       "id": "6606b3c2-9326-5859-8072-11cc974e1c3a",
@@ -1150,120 +1139,6 @@
       "parent": "7e2b4565-8bc6-582d-a0e4-2733eca1c3ea",
       "internal": {
         "contentDigest": "77ef76a7060c95e47b8576b18de95792",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "ff55ef78-ae60-56f8-a4c8-467357ed1493": {
-      "id": "ff55ef78-ae60-56f8-a4c8-467357ed1493",
-      "children": [
-        "0946ec31-2da5-5e19-83ad-b1066d7e77c5"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "90f57dccc96b84934f7a82a14b5b458d",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/halchemy.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "img",
-      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/halchemy.png",
-      "relativePath": "halchemy.png",
-      "extension": "png",
-      "size": 390090,
-      "prettySize": "390 kB",
-      "modifiedTime": "2018-09-13T01:52:25.177Z",
-      "accessTime": "2018-09-17T00:48:39.376Z",
-      "changeTime": "2018-09-13T01:52:25.177Z",
-      "birthTime": "2018-09-13T01:52:25.175Z",
-      "root": "/",
-      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
-      "base": "halchemy.png",
-      "ext": ".png",
-      "name": "halchemy",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8255733,
-      "blocks": 768,
-      "atimeMs": 1537145319375.6409,
-      "mtimeMs": 1536803545177.399,
-      "ctimeMs": 1536803545177.399,
-      "birthtimeMs": 1536803545175.2917,
-      "atime": "2018-09-17T00:48:39.376Z",
-      "mtime": "2018-09-13T01:52:25.177Z",
-      "ctime": "2018-09-13T01:52:25.177Z",
-      "birthtime": "2018-09-13T01:52:25.175Z"
-    },
-    "0946ec31-2da5-5e19-83ad-b1066d7e77c5": {
-      "id": "0946ec31-2da5-5e19-83ad-b1066d7e77c5",
-      "children": [],
-      "parent": "ff55ef78-ae60-56f8-a4c8-467357ed1493",
-      "internal": {
-        "contentDigest": "90f57dccc96b84934f7a82a14b5b458d",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "30295435-054e-5731-8a21-5a77ea170178": {
-      "id": "30295435-054e-5731-8a21-5a77ea170178",
-      "children": [
-        "e835a987-6b64-57be-859e-05db1b921b5f"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "9e1fd7b74a7c57927ec82af0fe114045",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/assets/companion-app.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "img",
-      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/companion-app.png",
-      "relativePath": "companion-app.png",
-      "extension": "png",
-      "size": 406077,
-      "prettySize": "406 kB",
-      "modifiedTime": "2018-09-13T01:52:25.151Z",
-      "accessTime": "2018-09-17T00:48:39.376Z",
-      "changeTime": "2018-09-13T01:52:25.151Z",
-      "birthTime": "2018-09-13T01:52:25.149Z",
-      "root": "/",
-      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
-      "base": "companion-app.png",
-      "ext": ".png",
-      "name": "companion-app",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8255730,
-      "blocks": 800,
-      "atimeMs": 1537145319375.5706,
-      "mtimeMs": 1536803545151.2463,
-      "ctimeMs": 1536803545151.2463,
-      "birthtimeMs": 1536803545148.9602,
-      "atime": "2018-09-17T00:48:39.376Z",
-      "mtime": "2018-09-13T01:52:25.151Z",
-      "ctime": "2018-09-13T01:52:25.151Z",
-      "birthtime": "2018-09-13T01:52:25.149Z"
-    },
-    "e835a987-6b64-57be-859e-05db1b921b5f": {
-      "id": "e835a987-6b64-57be-859e-05db1b921b5f",
-      "children": [],
-      "parent": "30295435-054e-5731-8a21-5a77ea170178",
-      "internal": {
-        "contentDigest": "9e1fd7b74a7c57927ec82af0fe114045",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1287,10 +1162,10 @@
       "extension": "png",
       "size": 2903526,
       "prettySize": "2.9 MB",
-      "modifiedTime": "2018-09-13T01:52:25.174Z",
-      "accessTime": "2018-09-17T00:48:39.376Z",
-      "changeTime": "2018-09-13T01:52:25.174Z",
-      "birthTime": "2018-09-13T01:52:25.165Z",
+      "modifiedTime": "2018-10-30T04:49:01.227Z",
+      "accessTime": "2018-10-30T04:49:15.799Z",
+      "changeTime": "2018-10-30T04:49:01.227Z",
+      "birthTime": "2018-10-30T04:49:01.197Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
       "base": "gorts.png",
@@ -1304,16 +1179,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8255732,
+      "ino": 9919930,
       "blocks": 5672,
-      "atimeMs": 1537145319375.6182,
-      "mtimeMs": 1536803545174.45,
-      "ctimeMs": 1536803545174.45,
-      "birthtimeMs": 1536803545164.9868,
-      "atime": "2018-09-17T00:48:39.376Z",
-      "mtime": "2018-09-13T01:52:25.174Z",
-      "ctime": "2018-09-13T01:52:25.174Z",
-      "birthtime": "2018-09-13T01:52:25.165Z"
+      "atimeMs": 1540874955799.4553,
+      "mtimeMs": 1540874941226.8882,
+      "ctimeMs": 1540874941226.8882,
+      "birthtimeMs": 1540874941197.113,
+      "atime": "2018-10-30T04:49:15.799Z",
+      "mtime": "2018-10-30T04:49:01.227Z",
+      "ctime": "2018-10-30T04:49:01.227Z",
+      "birthtime": "2018-10-30T04:49:01.197Z"
     },
     "a0d6ebbe-b309-5c18-a9f7-4039ce434234": {
       "id": "a0d6ebbe-b309-5c18-a9f7-4039ce434234",
@@ -1325,34 +1200,34 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "60c271ab-5c1f-582f-ba81-99d926c54a88": {
-      "id": "60c271ab-5c1f-582f-ba81-99d926c54a88",
+    "30295435-054e-5731-8a21-5a77ea170178": {
+      "id": "30295435-054e-5731-8a21-5a77ea170178",
       "children": [
-        "0f7b2b5f-aabe-5338-be6c-aa8a1e80eb59"
+        "e835a987-6b64-57be-859e-05db1b921b5f"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9e169fee3004f07f280a6be5393594f8",
+        "contentDigest": "9e1fd7b74a7c57927ec82af0fe114045",
         "type": "File",
         "mediaType": "image/png",
-        "description": "File \"src/assets/gitgrub.png\"",
+        "description": "File \"src/assets/companion-app.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "img",
-      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/gitgrub.png",
-      "relativePath": "gitgrub.png",
+      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/companion-app.png",
+      "relativePath": "companion-app.png",
       "extension": "png",
-      "size": 3431390,
-      "prettySize": "3.43 MB",
-      "modifiedTime": "2018-09-13T01:52:25.164Z",
-      "accessTime": "2018-09-17T00:48:39.376Z",
-      "changeTime": "2018-09-13T01:52:25.164Z",
-      "birthTime": "2018-09-13T01:52:25.152Z",
+      "size": 406077,
+      "prettySize": "406 kB",
+      "modifiedTime": "2018-09-17T03:29:55.984Z",
+      "accessTime": "2018-10-29T23:52:44.815Z",
+      "changeTime": "2018-09-17T03:29:55.984Z",
+      "birthTime": "2018-09-17T03:29:55.984Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
-      "base": "gitgrub.png",
+      "base": "companion-app.png",
       "ext": ".png",
-      "name": "gitgrub",
+      "name": "companion-app",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1361,23 +1236,80 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8255731,
-      "blocks": 6704,
-      "atimeMs": 1537145319375.5947,
-      "mtimeMs": 1536803545164.0542,
-      "ctimeMs": 1536803545164.0542,
-      "birthtimeMs": 1536803545151.5193,
-      "atime": "2018-09-17T00:48:39.376Z",
-      "mtime": "2018-09-13T01:52:25.164Z",
-      "ctime": "2018-09-13T01:52:25.164Z",
-      "birthtime": "2018-09-13T01:52:25.152Z"
+      "ino": 8491634,
+      "blocks": 800,
+      "atimeMs": 1540857164815.294,
+      "mtimeMs": 1537154995983.8132,
+      "ctimeMs": 1537154995983.8132,
+      "birthtimeMs": 1537154995983.698,
+      "atime": "2018-10-29T23:52:44.815Z",
+      "mtime": "2018-09-17T03:29:55.984Z",
+      "ctime": "2018-09-17T03:29:55.984Z",
+      "birthtime": "2018-09-17T03:29:55.984Z"
     },
-    "0f7b2b5f-aabe-5338-be6c-aa8a1e80eb59": {
-      "id": "0f7b2b5f-aabe-5338-be6c-aa8a1e80eb59",
+    "e835a987-6b64-57be-859e-05db1b921b5f": {
+      "id": "e835a987-6b64-57be-859e-05db1b921b5f",
       "children": [],
-      "parent": "60c271ab-5c1f-582f-ba81-99d926c54a88",
+      "parent": "30295435-054e-5731-8a21-5a77ea170178",
       "internal": {
-        "contentDigest": "9e169fee3004f07f280a6be5393594f8",
+        "contentDigest": "9e1fd7b74a7c57927ec82af0fe114045",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "ff55ef78-ae60-56f8-a4c8-467357ed1493": {
+      "id": "ff55ef78-ae60-56f8-a4c8-467357ed1493",
+      "children": [
+        "0946ec31-2da5-5e19-83ad-b1066d7e77c5"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "90f57dccc96b84934f7a82a14b5b458d",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/halchemy.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/halchemy.png",
+      "relativePath": "halchemy.png",
+      "extension": "png",
+      "size": 390090,
+      "prettySize": "390 kB",
+      "modifiedTime": "2018-09-17T03:29:55.953Z",
+      "accessTime": "2018-10-29T23:52:44.815Z",
+      "changeTime": "2018-09-17T03:29:55.953Z",
+      "birthTime": "2018-09-17T03:29:55.953Z",
+      "root": "/",
+      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
+      "base": "halchemy.png",
+      "ext": ".png",
+      "name": "halchemy",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8491631,
+      "blocks": 768,
+      "atimeMs": 1540857164815.3462,
+      "mtimeMs": 1537154995952.8792,
+      "ctimeMs": 1537154995952.8792,
+      "birthtimeMs": 1537154995952.75,
+      "atime": "2018-10-29T23:52:44.815Z",
+      "mtime": "2018-09-17T03:29:55.953Z",
+      "ctime": "2018-09-17T03:29:55.953Z",
+      "birthtime": "2018-09-17T03:29:55.953Z"
+    },
+    "0946ec31-2da5-5e19-83ad-b1066d7e77c5": {
+      "id": "0946ec31-2da5-5e19-83ad-b1066d7e77c5",
+      "children": [],
+      "parent": "ff55ef78-ae60-56f8-a4c8-467357ed1493",
+      "internal": {
+        "contentDigest": "90f57dccc96b84934f7a82a14b5b458d",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1401,10 +1333,10 @@
       "extension": "png",
       "size": 5727532,
       "prettySize": "5.73 MB",
-      "modifiedTime": "2018-09-13T01:52:25.199Z",
-      "accessTime": "2018-09-17T00:48:39.376Z",
-      "changeTime": "2018-09-13T01:52:25.199Z",
-      "birthTime": "2018-09-13T01:52:25.178Z",
+      "modifiedTime": "2018-10-30T04:49:01.315Z",
+      "accessTime": "2018-10-30T04:49:15.804Z",
+      "changeTime": "2018-10-30T04:49:01.315Z",
+      "birthTime": "2018-10-30T04:49:01.228Z",
       "root": "/",
       "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
       "base": "mystical-tutor.png",
@@ -1418,16 +1350,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 8255734,
+      "ino": 9919931,
       "blocks": 11192,
-      "atimeMs": 1537145319375.664,
-      "mtimeMs": 1536803545199.3545,
-      "ctimeMs": 1536803545199.3545,
-      "birthtimeMs": 1536803545177.7495,
-      "atime": "2018-09-17T00:48:39.376Z",
-      "mtime": "2018-09-13T01:52:25.199Z",
-      "ctime": "2018-09-13T01:52:25.199Z",
-      "birthtime": "2018-09-13T01:52:25.178Z"
+      "atimeMs": 1540874955803.8723,
+      "mtimeMs": 1540874941315.2075,
+      "ctimeMs": 1540874941315.2075,
+      "birthtimeMs": 1540874941227.766,
+      "atime": "2018-10-30T04:49:15.804Z",
+      "mtime": "2018-10-30T04:49:01.315Z",
+      "ctime": "2018-10-30T04:49:01.315Z",
+      "birthtime": "2018-10-30T04:49:01.228Z"
     },
     "56226373-1ffc-50b2-9b4e-f46aba94129e": {
       "id": "56226373-1ffc-50b2-9b4e-f46aba94129e",
@@ -1435,6 +1367,63 @@
       "parent": "e4e96cff-ea28-5258-9524-b3f764d6f0d9",
       "internal": {
         "contentDigest": "eed05ee7c2fc36760cabf3162ae36aac",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "60c271ab-5c1f-582f-ba81-99d926c54a88": {
+      "id": "60c271ab-5c1f-582f-ba81-99d926c54a88",
+      "children": [
+        "0f7b2b5f-aabe-5338-be6c-aa8a1e80eb59"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9e169fee3004f07f280a6be5393594f8",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/assets/gitgrub.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "img",
+      "absolutePath": "/Users/arthurjen/alchemy/401/portfolio/src/assets/gitgrub.png",
+      "relativePath": "gitgrub.png",
+      "extension": "png",
+      "size": 3431390,
+      "prettySize": "3.43 MB",
+      "modifiedTime": "2018-09-17T03:29:55.975Z",
+      "accessTime": "2018-10-29T23:52:44.815Z",
+      "changeTime": "2018-09-17T03:29:55.975Z",
+      "birthTime": "2018-09-17T03:29:55.975Z",
+      "root": "/",
+      "dir": "/Users/arthurjen/alchemy/401/portfolio/src/assets",
+      "base": "gitgrub.png",
+      "ext": ".png",
+      "name": "gitgrub",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8491633,
+      "blocks": 6704,
+      "atimeMs": 1540857164815.317,
+      "mtimeMs": 1537154995975.3633,
+      "ctimeMs": 1537154995975.3633,
+      "birthtimeMs": 1537154995974.7305,
+      "atime": "2018-10-29T23:52:44.815Z",
+      "mtime": "2018-09-17T03:29:55.975Z",
+      "ctime": "2018-09-17T03:29:55.975Z",
+      "birthtime": "2018-09-17T03:29:55.975Z"
+    },
+    "0f7b2b5f-aabe-5338-be6c-aa8a1e80eb59": {
+      "id": "0f7b2b5f-aabe-5338-be6c-aa8a1e80eb59",
+      "children": [],
+      "parent": "60c271ab-5c1f-582f-ba81-99d926c54a88",
+      "internal": {
+        "contentDigest": "9e169fee3004f07f280a6be5393594f8",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1717,7 +1706,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ecd713eebba378c41fa7b4171f5a0059"
+    "PLUGINS_HASH": "dc3fcee9bfb03c97cf98af57c8b14c2a"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1746,7 +1735,13 @@
     "about-f34": "576/path---about-f-34-4c2-Kn4eq1gOcmqCOc9AMQhmxQmFOwM",
     "index": "657/path---index-6a9-94qP5VhxyJcOeiFx2pvMkyQEQXQ",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "project-3d8": "725/path---project-3-d-8-a3b-NZuapzHg3X9TaN1iIixfv1W23E"
+    "project-3d8": "725/path---project-3-d-8-a3b-NZuapzHg3X9TaN1iIixfv1W23E",
+    "snakes-and-squirrels-d15": "386/path---snakes-and-squirrels-d-15-88f-NZuapzHg3X9TaN1iIixfv1W23E",
+    "snakes-036": "839/path---snakes-036-c91-NZuapzHg3X9TaN1iIixfv1W23E",
+    "halchemy-6d6": "706/path---halchemy-6-d-6-a35-NZuapzHg3X9TaN1iIixfv1W23E",
+    "bootcamp-companion-c8c": "326/path---bootcamp-companion-c-8-c-ef4-NZuapzHg3X9TaN1iIixfv1W23E",
+    "gitgrub-566": "125/path---gitgrub-566-d9e-NZuapzHg3X9TaN1iIixfv1W23E",
+    "companion-596": "760/path---companion-596-9d6-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js": {
@@ -1764,10 +1759,6 @@
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/project.js": {
       "query": "",
       "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/project.js"
-    },
-    "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}
