@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fe2022d99eac6cd22b49799109c9f6f7",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -356,215 +347,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-transformer-sharp": {
-      "resolve": "/Users/arthurjen/alchemy/401/portfolio/node_modules/gatsby-transformer-sharp",
-      "id": "Plugin gatsby-transformer-sharp",
-      "name": "gatsby-transformer-sharp",
-      "version": "2.1.1-rc.3",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateNode",
-        "setFieldsOnGraphQLNodeType",
-        "onPreExtractQueries"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/arthurjen/alchemy/401/portfolio/node_modules/gatsby-transformer-sharp",
-      "packageJson": {
-        "name": "gatsby-transformer-sharp",
-        "description": "Gatsby transformer plugin for images using Sharp",
-        "version": "2.1.1-rc.3",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "image",
-          "sharp"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "potrace",
-            "version": "^2.1.1"
-          },
-          {
-            "name": "probe-image-size",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.20.2"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          },
-          {
-            "name": "gatsby-plugin-sharp",
-            "version": "^2.0.0-beta.3"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "9a9e3146d755ee0ef10a37fa9b28f1ff",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin gatsby-plugin-sharp": {
-      "resolve": "/Users/arthurjen/alchemy/401/portfolio/node_modules/gatsby-plugin-sharp",
-      "id": "Plugin gatsby-plugin-sharp",
-      "name": "gatsby-plugin-sharp",
-      "version": "2.0.0-rc.7",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/arthurjen/alchemy/401/portfolio/node_modules/gatsby-plugin-sharp",
-      "packageJson": {
-        "name": "gatsby-plugin-sharp",
-        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.0-rc.7",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "image",
-          "sharp"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "async",
-            "version": "^2.1.2"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "fs-exists-cached",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "imagemin",
-            "version": "^6.0.0"
-          },
-          {
-            "name": "imagemin-pngquant",
-            "version": "^6.0.0"
-          },
-          {
-            "name": "imagemin-webp",
-            "version": "^4.1.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "mini-svg-data-uri",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "potrace",
-            "version": "^2.1.1"
-          },
-          {
-            "name": "probe-image-size",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "progress",
-            "version": "^1.1.8"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.20.2"
-          },
-          {
-            "name": "svgo",
-            "version": "^0.7.2"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "1aafafefd11afec60b754abad3e4baa8",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin gatsby-plugin-favicon": {
       "resolve": "/Users/arthurjen/alchemy/401/portfolio/node_modules/gatsby-plugin-favicon",
       "id": "Plugin gatsby-plugin-favicon",
@@ -743,127 +525,11 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-source-contentful": {
-      "resolve": "/Users/arthurjen/alchemy/401/portfolio/node_modules/gatsby-source-contentful",
-      "id": "Plugin gatsby-source-contentful",
-      "name": "gatsby-source-contentful",
-      "version": "2.0.1-rc.9",
-      "pluginOptions": {
-        "plugins": [],
-        "spaceId": "nz6p5gptgz07",
-        "accessToken": "cc93aa49f30ce75f2ffb322992759ec091aa81518c0aeb5f6f259b99113d79d3",
-        "host": "preview.contentful.com",
-        "environment": "master"
-      },
-      "nodeAPIs": [
-        "setFieldsOnGraphQLNodeType",
-        "sourceNodes",
-        "onPreExtractQueries"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/arthurjen/alchemy/401/portfolio/node_modules/gatsby-source-contentful",
-      "packageJson": {
-        "name": "gatsby-source-contentful",
-        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
-        "version": "2.0.1-rc.9",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "gatsby-source-plugin"
-        ],
-        "author": {
-          "name": "Marcus Ericsson",
-          "email": "mericsson@gmail.com",
-          "url": "mericsson.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "axios",
-            "version": "^0.18.0"
-          },
-          {
-            "name": "base64-img",
-            "version": "^1.0.3"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "contentful",
-            "version": "^6.1.0"
-          },
-          {
-            "name": "deep-map",
-            "version": "^1.5.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^4.0.2"
-          },
-          {
-            "name": "gatsby-plugin-sharp",
-            "version": "^2.0.0-rc.7"
-          },
-          {
-            "name": "is-online",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "json-stringify-safe",
-            "version": "^5.0.1"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "qs",
-            "version": "^6.4.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "07ada5b5a08f4108bad5511344ce8d01",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/arthurjen/alchemy/401/portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "113afcc6c91292a126f1113ff6dd26a3",
+      "version": "562418dda932c0e1464b3993f3e65a69",
       "pluginOptions": {
         "plugins": []
       },
@@ -925,7 +591,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e63601c78f3565fdd52b98ea098d47d2",
+        "contentDigest": "79fb621fad3630a61c2e0bffb3d1f0e0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1027,16 +693,14 @@
     },
     "Site": {
       "siteMetadata": {},
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-30T17:47:34.465Z",
+      "buildTime": "2018-10-30T17:53:24.488Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7b682dcaad9f73d80a0df480f0862f6d",
+        "contentDigest": "3282d29f87e7791fd23cd74d846141e0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1046,7 +710,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ca1f679c414c9acf88987f9003570cd8",
+        "contentDigest": "d611d40991027a3852fdc6f7aa1881e4",
         "type": "Directory",
         "description": "Directory \"src/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -1058,7 +722,7 @@
       "size": 1024,
       "prettySize": "1.02 kB",
       "modifiedTime": "2018-10-30T05:00:50.969Z",
-      "accessTime": "2018-10-30T17:47:36.565Z",
+      "accessTime": "2018-10-30T17:53:26.191Z",
       "changeTime": "2018-10-30T05:00:50.969Z",
       "birthTime": "2018-09-17T03:29:55.447Z",
       "root": "/",
@@ -1076,20 +740,18 @@
       "blksize": 4194304,
       "ino": 8491608,
       "blocks": 0,
-      "atimeMs": 1540921656565.0369,
+      "atimeMs": 1540922006190.655,
       "mtimeMs": 1540875650968.73,
       "ctimeMs": 1540875650968.73,
       "birthtimeMs": 1537154995446.801,
-      "atime": "2018-10-30T17:47:36.565Z",
+      "atime": "2018-10-30T17:53:26.191Z",
       "mtime": "2018-10-30T05:00:50.969Z",
       "ctime": "2018-10-30T05:00:50.969Z",
       "birthtime": "2018-09-17T03:29:55.447Z"
     },
     "92b02b24-34cf-565a-a4b6-46dfb2ebc22e": {
       "id": "92b02b24-34cf-565a-a4b6-46dfb2ebc22e",
-      "children": [
-        "989347ec-46af-53a4-92b3-250f1ce6d414"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "6a83b8ef4a7c50b8e3b31dbadc471459",
@@ -1105,7 +767,7 @@
       "size": 42284,
       "prettySize": "42.3 kB",
       "modifiedTime": "2018-10-30T04:53:08.246Z",
-      "accessTime": "2018-10-30T17:21:38.208Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.246Z",
       "birthTime": "2018-10-30T04:53:08.245Z",
       "root": "/",
@@ -1123,20 +785,18 @@
       "blksize": 4194304,
       "ino": 9920593,
       "blocks": 88,
-      "atimeMs": 1540920098208.3293,
+      "atimeMs": 1540921661100.5774,
       "mtimeMs": 1540875188246.384,
       "ctimeMs": 1540875188246.384,
       "birthtimeMs": 1540875188245.313,
-      "atime": "2018-10-30T17:21:38.208Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.246Z",
       "ctime": "2018-10-30T04:53:08.246Z",
       "birthtime": "2018-10-30T04:53:08.245Z"
     },
     "7e2b4565-8bc6-582d-a0e4-2733eca1c3ea": {
       "id": "7e2b4565-8bc6-582d-a0e4-2733eca1c3ea",
-      "children": [
-        "6606b3c2-9326-5859-8072-11cc974e1c3a"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "77ef76a7060c95e47b8576b18de95792",
@@ -1152,7 +812,7 @@
       "size": 59474,
       "prettySize": "59.5 kB",
       "modifiedTime": "2018-09-17T03:29:55.985Z",
-      "accessTime": "2018-10-30T17:21:34.491Z",
+      "accessTime": "2018-10-30T17:47:37.272Z",
       "changeTime": "2018-09-17T03:29:55.985Z",
       "birthTime": "2018-09-17T03:29:55.985Z",
       "root": "/",
@@ -1170,20 +830,18 @@
       "blksize": 4194304,
       "ino": 8491635,
       "blocks": 120,
-      "atimeMs": 1540920094491.4587,
+      "atimeMs": 1540921657272.2358,
       "mtimeMs": 1537154995985.3076,
       "ctimeMs": 1537154995985.3076,
       "birthtimeMs": 1537154995985.254,
-      "atime": "2018-10-30T17:21:34.491Z",
+      "atime": "2018-10-30T17:47:37.272Z",
       "mtime": "2018-09-17T03:29:55.985Z",
       "ctime": "2018-09-17T03:29:55.985Z",
       "birthtime": "2018-09-17T03:29:55.985Z"
     },
     "dec1d4da-6626-545b-bab1-fe4d255f1a4e": {
       "id": "dec1d4da-6626-545b-bab1-fe4d255f1a4e",
-      "children": [
-        "ea4a8257-3102-5b60-b964-9c5d29858426"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "0d05d400b8218df59e93ca181645abd7",
@@ -1199,7 +857,7 @@
       "size": 41380,
       "prettySize": "41.4 kB",
       "modifiedTime": "2018-10-30T04:53:08.288Z",
-      "accessTime": "2018-10-30T17:21:38.209Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.288Z",
       "birthTime": "2018-10-30T04:53:08.286Z",
       "root": "/",
@@ -1217,20 +875,18 @@
       "blksize": 4194304,
       "ino": 9920601,
       "blocks": 88,
-      "atimeMs": 1540920098208.517,
+      "atimeMs": 1540921661100.7717,
       "mtimeMs": 1540875188287.6348,
       "ctimeMs": 1540875188287.6348,
       "birthtimeMs": 1540875188285.7644,
-      "atime": "2018-10-30T17:21:38.209Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.288Z",
       "ctime": "2018-10-30T04:53:08.288Z",
       "birthtime": "2018-10-30T04:53:08.286Z"
     },
     "e5ab8181-be28-5ef6-b3aa-be5d6e6022fd": {
       "id": "e5ab8181-be28-5ef6-b3aa-be5d6e6022fd",
-      "children": [
-        "82571a31-4901-5024-841b-6b34379585c5"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "203a738652940b88884c3c0c572261e7",
@@ -1246,7 +902,7 @@
       "size": 20651,
       "prettySize": "20.7 kB",
       "modifiedTime": "2018-10-30T04:53:08.300Z",
-      "accessTime": "2018-10-30T17:21:38.209Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.300Z",
       "birthTime": "2018-10-30T04:53:08.299Z",
       "root": "/",
@@ -1264,60 +920,18 @@
       "blksize": 4194304,
       "ino": 9920605,
       "blocks": 48,
-      "atimeMs": 1540920098208.6196,
+      "atimeMs": 1540921661100.8774,
       "mtimeMs": 1540875188299.6064,
       "ctimeMs": 1540875188299.6064,
       "birthtimeMs": 1540875188298.5625,
-      "atime": "2018-10-30T17:21:38.209Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.300Z",
       "ctime": "2018-10-30T04:53:08.300Z",
       "birthtime": "2018-10-30T04:53:08.299Z"
     },
-    "989347ec-46af-53a4-92b3-250f1ce6d414": {
-      "id": "989347ec-46af-53a4-92b3-250f1ce6d414",
-      "children": [],
-      "parent": "92b02b24-34cf-565a-a4b6-46dfb2ebc22e",
-      "internal": {
-        "contentDigest": "6a83b8ef4a7c50b8e3b31dbadc471459",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "6606b3c2-9326-5859-8072-11cc974e1c3a": {
-      "id": "6606b3c2-9326-5859-8072-11cc974e1c3a",
-      "children": [],
-      "parent": "7e2b4565-8bc6-582d-a0e4-2733eca1c3ea",
-      "internal": {
-        "contentDigest": "77ef76a7060c95e47b8576b18de95792",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "ea4a8257-3102-5b60-b964-9c5d29858426": {
-      "id": "ea4a8257-3102-5b60-b964-9c5d29858426",
-      "children": [],
-      "parent": "dec1d4da-6626-545b-bab1-fe4d255f1a4e",
-      "internal": {
-        "contentDigest": "0d05d400b8218df59e93ca181645abd7",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "82571a31-4901-5024-841b-6b34379585c5": {
-      "id": "82571a31-4901-5024-841b-6b34379585c5",
-      "children": [],
-      "parent": "e5ab8181-be28-5ef6-b3aa-be5d6e6022fd",
-      "internal": {
-        "contentDigest": "203a738652940b88884c3c0c572261e7",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "4611c80a-6b5c-5fdf-bb90-2d49383c3d3c": {
       "id": "4611c80a-6b5c-5fdf-bb90-2d49383c3d3c",
-      "children": [
-        "96a837bf-570d-5342-8ba0-efbb9124e910"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "033de9896e58f489ee4ed71d840b2c5b",
@@ -1333,7 +947,7 @@
       "size": 83647,
       "prettySize": "83.6 kB",
       "modifiedTime": "2018-10-30T04:53:08.261Z",
-      "accessTime": "2018-10-30T17:21:38.208Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.261Z",
       "birthTime": "2018-10-30T04:53:08.259Z",
       "root": "/",
@@ -1351,20 +965,18 @@
       "blksize": 4194304,
       "ino": 9920595,
       "blocks": 168,
-      "atimeMs": 1540920098208.3958,
+      "atimeMs": 1540921661100.6465,
       "mtimeMs": 1540875188260.9976,
       "ctimeMs": 1540875188260.9976,
       "birthtimeMs": 1540875188258.8804,
-      "atime": "2018-10-30T17:21:38.208Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.261Z",
       "ctime": "2018-10-30T04:53:08.261Z",
       "birthtime": "2018-10-30T04:53:08.259Z"
     },
     "24ca3b4f-8253-5107-b3fe-259028c84028": {
       "id": "24ca3b4f-8253-5107-b3fe-259028c84028",
-      "children": [
-        "2ab80052-c233-5dac-ac80-98b0fd0e95f2"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "f14a2c10c4b55a3f847d14359137763f",
@@ -1380,7 +992,7 @@
       "size": 105075,
       "prettySize": "105 kB",
       "modifiedTime": "2018-10-30T04:53:08.290Z",
-      "accessTime": "2018-10-30T17:21:38.209Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.290Z",
       "birthTime": "2018-10-30T04:53:08.288Z",
       "root": "/",
@@ -1398,20 +1010,18 @@
       "blksize": 4194304,
       "ino": 9920602,
       "blocks": 208,
-      "atimeMs": 1540920098208.5369,
+      "atimeMs": 1540921661100.7927,
       "mtimeMs": 1540875188290.4412,
       "ctimeMs": 1540875188290.4412,
       "birthtimeMs": 1540875188288.3228,
-      "atime": "2018-10-30T17:21:38.209Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.290Z",
       "ctime": "2018-10-30T04:53:08.290Z",
       "birthtime": "2018-10-30T04:53:08.288Z"
     },
     "a5150613-0e09-5b8b-8e27-5784e1edae21": {
       "id": "a5150613-0e09-5b8b-8e27-5784e1edae21",
-      "children": [
-        "34598912-2300-580a-ac8d-ab002f96028f"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "66ae25164e4bdfd253bb97440301e999",
@@ -1427,7 +1037,7 @@
       "size": 116434,
       "prettySize": "116 kB",
       "modifiedTime": "2018-10-30T04:53:08.298Z",
-      "accessTime": "2018-10-30T17:21:38.209Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.298Z",
       "birthTime": "2018-10-30T04:53:08.296Z",
       "root": "/",
@@ -1445,50 +1055,18 @@
       "blksize": 4194304,
       "ino": 9920604,
       "blocks": 232,
-      "atimeMs": 1540920098208.578,
+      "atimeMs": 1540921661100.8354,
       "mtimeMs": 1540875188298.2935,
       "ctimeMs": 1540875188298.2935,
       "birthtimeMs": 1540875188295.8052,
-      "atime": "2018-10-30T17:21:38.209Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.298Z",
       "ctime": "2018-10-30T04:53:08.298Z",
       "birthtime": "2018-10-30T04:53:08.296Z"
     },
-    "96a837bf-570d-5342-8ba0-efbb9124e910": {
-      "id": "96a837bf-570d-5342-8ba0-efbb9124e910",
-      "children": [],
-      "parent": "4611c80a-6b5c-5fdf-bb90-2d49383c3d3c",
-      "internal": {
-        "contentDigest": "033de9896e58f489ee4ed71d840b2c5b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "2ab80052-c233-5dac-ac80-98b0fd0e95f2": {
-      "id": "2ab80052-c233-5dac-ac80-98b0fd0e95f2",
-      "children": [],
-      "parent": "24ca3b4f-8253-5107-b3fe-259028c84028",
-      "internal": {
-        "contentDigest": "f14a2c10c4b55a3f847d14359137763f",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "34598912-2300-580a-ac8d-ab002f96028f": {
-      "id": "34598912-2300-580a-ac8d-ab002f96028f",
-      "children": [],
-      "parent": "a5150613-0e09-5b8b-8e27-5784e1edae21",
-      "internal": {
-        "contentDigest": "66ae25164e4bdfd253bb97440301e999",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "45b8e74a-7cf7-5b49-a481-feca833990dd": {
       "id": "45b8e74a-7cf7-5b49-a481-feca833990dd",
-      "children": [
-        "7b64f093-a4c6-579e-90b7-b5d841e4f6f5"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "634390f10f6079493496ccadace6a09a",
@@ -1504,7 +1082,7 @@
       "size": 131541,
       "prettySize": "132 kB",
       "modifiedTime": "2018-10-30T04:53:08.264Z",
-      "accessTime": "2018-10-30T17:21:38.208Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.264Z",
       "birthTime": "2018-10-30T04:53:08.261Z",
       "root": "/",
@@ -1522,20 +1100,18 @@
       "blksize": 4194304,
       "ino": 9920596,
       "blocks": 264,
-      "atimeMs": 1540920098208.4158,
+      "atimeMs": 1540921661100.6677,
       "mtimeMs": 1540875188263.9744,
       "ctimeMs": 1540875188263.9744,
       "birthtimeMs": 1540875188261.2476,
-      "atime": "2018-10-30T17:21:38.208Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.264Z",
       "ctime": "2018-10-30T04:53:08.264Z",
       "birthtime": "2018-10-30T04:53:08.261Z"
     },
     "da122b5f-19af-539c-850c-b3886cdb8d26": {
       "id": "da122b5f-19af-539c-850c-b3886cdb8d26",
-      "children": [
-        "88a317b5-005a-5a8e-a3a6-8f1fda209111"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "c692785cfe07978a709509699296941d",
@@ -1551,7 +1127,7 @@
       "size": 168446,
       "prettySize": "168 kB",
       "modifiedTime": "2018-10-30T04:53:08.285Z",
-      "accessTime": "2018-10-30T17:21:38.208Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.285Z",
       "birthTime": "2018-10-30T04:53:08.282Z",
       "root": "/",
@@ -1569,40 +1145,18 @@
       "blksize": 4194304,
       "ino": 9920600,
       "blocks": 336,
-      "atimeMs": 1540920098208.497,
+      "atimeMs": 1540921661100.751,
       "mtimeMs": 1540875188285.357,
       "ctimeMs": 1540875188285.357,
       "birthtimeMs": 1540875188281.7798,
-      "atime": "2018-10-30T17:21:38.208Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.285Z",
       "ctime": "2018-10-30T04:53:08.285Z",
       "birthtime": "2018-10-30T04:53:08.282Z"
     },
-    "7b64f093-a4c6-579e-90b7-b5d841e4f6f5": {
-      "id": "7b64f093-a4c6-579e-90b7-b5d841e4f6f5",
-      "children": [],
-      "parent": "45b8e74a-7cf7-5b49-a481-feca833990dd",
-      "internal": {
-        "contentDigest": "634390f10f6079493496ccadace6a09a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "88a317b5-005a-5a8e-a3a6-8f1fda209111": {
-      "id": "88a317b5-005a-5a8e-a3a6-8f1fda209111",
-      "children": [],
-      "parent": "da122b5f-19af-539c-850c-b3886cdb8d26",
-      "internal": {
-        "contentDigest": "c692785cfe07978a709509699296941d",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "1037f322-a97a-56b1-b9e8-6ad9b866aa52": {
       "id": "1037f322-a97a-56b1-b9e8-6ad9b866aa52",
-      "children": [
-        "7aa32f79-b9e9-572e-aba4-0d48165d2033"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "504f8e6c09c63884c17edf1a0ea39840",
@@ -1618,7 +1172,7 @@
       "size": 236941,
       "prettySize": "237 kB",
       "modifiedTime": "2018-10-30T04:53:08.268Z",
-      "accessTime": "2018-10-30T17:21:38.208Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.268Z",
       "birthTime": "2018-10-30T04:53:08.264Z",
       "root": "/",
@@ -1636,30 +1190,18 @@
       "blksize": 4194304,
       "ino": 9920597,
       "blocks": 464,
-      "atimeMs": 1540920098208.4363,
+      "atimeMs": 1540921661100.689,
       "mtimeMs": 1540875188268.0635,
       "ctimeMs": 1540875188268.0635,
       "birthtimeMs": 1540875188264.29,
-      "atime": "2018-10-30T17:21:38.208Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.268Z",
       "ctime": "2018-10-30T04:53:08.268Z",
       "birthtime": "2018-10-30T04:53:08.264Z"
     },
-    "7aa32f79-b9e9-572e-aba4-0d48165d2033": {
-      "id": "7aa32f79-b9e9-572e-aba4-0d48165d2033",
-      "children": [],
-      "parent": "1037f322-a97a-56b1-b9e8-6ad9b866aa52",
-      "internal": {
-        "contentDigest": "504f8e6c09c63884c17edf1a0ea39840",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "9676b594-8c85-50f3-8f2a-38cf5a7ec1e4": {
       "id": "9676b594-8c85-50f3-8f2a-38cf5a7ec1e4",
-      "children": [
-        "f0edaf4c-1f9c-510e-9b28-52e2ee7e60bb"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "ce0d75f19b238683cbd7513630493584",
@@ -1675,7 +1217,7 @@
       "size": 301988,
       "prettySize": "302 kB",
       "modifiedTime": "2018-10-30T04:53:08.258Z",
-      "accessTime": "2018-10-30T17:21:38.208Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.258Z",
       "birthTime": "2018-10-30T04:53:08.247Z",
       "root": "/",
@@ -1693,20 +1235,18 @@
       "blksize": 4194304,
       "ino": 9920594,
       "blocks": 592,
-      "atimeMs": 1540920098208.3743,
+      "atimeMs": 1540921661100.624,
       "mtimeMs": 1540875188258.2183,
       "ctimeMs": 1540875188258.2183,
       "birthtimeMs": 1540875188246.5508,
-      "atime": "2018-10-30T17:21:38.208Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.258Z",
       "ctime": "2018-10-30T04:53:08.258Z",
       "birthtime": "2018-10-30T04:53:08.247Z"
     },
     "315c782f-c588-5bfa-965a-2bbbf9b8938d": {
       "id": "315c782f-c588-5bfa-965a-2bbbf9b8938d",
-      "children": [
-        "69a4dc34-9033-5c8d-865e-bd668672f70e"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "3d8da93c050dd9a11b25ce330b4ec871",
@@ -1722,7 +1262,7 @@
       "size": 262781,
       "prettySize": "263 kB",
       "modifiedTime": "2018-10-30T04:53:08.295Z",
-      "accessTime": "2018-10-30T17:21:38.209Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.295Z",
       "birthTime": "2018-10-30T04:53:08.291Z",
       "root": "/",
@@ -1740,20 +1280,18 @@
       "blksize": 4194304,
       "ino": 9920603,
       "blocks": 520,
-      "atimeMs": 1540920098208.5579,
+      "atimeMs": 1540921661100.8147,
       "mtimeMs": 1540875188295.3345,
       "ctimeMs": 1540875188295.3345,
       "birthtimeMs": 1540875188290.674,
-      "atime": "2018-10-30T17:21:38.209Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.295Z",
       "ctime": "2018-10-30T04:53:08.295Z",
       "birthtime": "2018-10-30T04:53:08.291Z"
     },
     "95cbe030-08b8-5f02-90cd-e46fbfad6a71": {
       "id": "95cbe030-08b8-5f02-90cd-e46fbfad6a71",
-      "children": [
-        "998b8a77-9a68-5bb3-ab84-78b01db01099"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "b1e067847bca7ccbbb5a0a5689ac2bc1",
@@ -1769,7 +1307,7 @@
       "size": 323861,
       "prettySize": "324 kB",
       "modifiedTime": "2018-10-30T04:53:08.432Z",
-      "accessTime": "2018-10-30T17:21:34.492Z",
+      "accessTime": "2018-10-30T17:47:37.273Z",
       "changeTime": "2018-10-30T04:53:08.432Z",
       "birthTime": "2018-10-30T04:53:08.429Z",
       "root": "/",
@@ -1787,20 +1325,18 @@
       "blksize": 4194304,
       "ino": 9920613,
       "blocks": 640,
-      "atimeMs": 1540920094491.7834,
+      "atimeMs": 1540921657272.6165,
       "mtimeMs": 1540875188432.2998,
       "ctimeMs": 1540875188432.2998,
       "birthtimeMs": 1540875188429.3962,
-      "atime": "2018-10-30T17:21:34.492Z",
+      "atime": "2018-10-30T17:47:37.273Z",
       "mtime": "2018-10-30T04:53:08.432Z",
       "ctime": "2018-10-30T04:53:08.432Z",
       "birthtime": "2018-10-30T04:53:08.429Z"
     },
     "4d627e27-990a-58f0-a2a6-ed86b1010e7e": {
       "id": "4d627e27-990a-58f0-a2a6-ed86b1010e7e",
-      "children": [
-        "006dfb6d-8b19-5d07-ada2-62d3b3264cf7"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "2c612fc5949301dc14546032afed4cab",
@@ -1816,7 +1352,7 @@
       "size": 309771,
       "prettySize": "310 kB",
       "modifiedTime": "2018-10-30T04:53:08.488Z",
-      "accessTime": "2018-10-30T17:21:38.209Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.488Z",
       "birthTime": "2018-10-30T04:53:08.484Z",
       "root": "/",
@@ -1834,60 +1370,18 @@
       "blksize": 4194304,
       "ino": 9920617,
       "blocks": 608,
-      "atimeMs": 1540920098208.8625,
+      "atimeMs": 1540921661101.1667,
       "mtimeMs": 1540875188487.8518,
       "ctimeMs": 1540875188487.8518,
       "birthtimeMs": 1540875188483.5405,
-      "atime": "2018-10-30T17:21:38.209Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.488Z",
       "ctime": "2018-10-30T04:53:08.488Z",
       "birthtime": "2018-10-30T04:53:08.484Z"
     },
-    "f0edaf4c-1f9c-510e-9b28-52e2ee7e60bb": {
-      "id": "f0edaf4c-1f9c-510e-9b28-52e2ee7e60bb",
-      "children": [],
-      "parent": "9676b594-8c85-50f3-8f2a-38cf5a7ec1e4",
-      "internal": {
-        "contentDigest": "ce0d75f19b238683cbd7513630493584",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "69a4dc34-9033-5c8d-865e-bd668672f70e": {
-      "id": "69a4dc34-9033-5c8d-865e-bd668672f70e",
-      "children": [],
-      "parent": "315c782f-c588-5bfa-965a-2bbbf9b8938d",
-      "internal": {
-        "contentDigest": "3d8da93c050dd9a11b25ce330b4ec871",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "998b8a77-9a68-5bb3-ab84-78b01db01099": {
-      "id": "998b8a77-9a68-5bb3-ab84-78b01db01099",
-      "children": [],
-      "parent": "95cbe030-08b8-5f02-90cd-e46fbfad6a71",
-      "internal": {
-        "contentDigest": "b1e067847bca7ccbbb5a0a5689ac2bc1",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "006dfb6d-8b19-5d07-ada2-62d3b3264cf7": {
-      "id": "006dfb6d-8b19-5d07-ada2-62d3b3264cf7",
-      "children": [],
-      "parent": "4d627e27-990a-58f0-a2a6-ed86b1010e7e",
-      "internal": {
-        "contentDigest": "2c612fc5949301dc14546032afed4cab",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "ff55ef78-ae60-56f8-a4c8-467357ed1493": {
       "id": "ff55ef78-ae60-56f8-a4c8-467357ed1493",
-      "children": [
-        "0946ec31-2da5-5e19-83ad-b1066d7e77c5"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "90f57dccc96b84934f7a82a14b5b458d",
@@ -1903,7 +1397,7 @@
       "size": 390090,
       "prettySize": "390 kB",
       "modifiedTime": "2018-09-17T03:29:55.953Z",
-      "accessTime": "2018-10-30T17:21:34.492Z",
+      "accessTime": "2018-10-30T17:47:37.272Z",
       "changeTime": "2018-09-17T03:29:55.953Z",
       "birthTime": "2018-09-17T03:29:55.953Z",
       "root": "/",
@@ -1921,30 +1415,18 @@
       "blksize": 4194304,
       "ino": 8491631,
       "blocks": 768,
-      "atimeMs": 1540920094491.6372,
+      "atimeMs": 1540921657272.462,
       "mtimeMs": 1537154995952.8792,
       "ctimeMs": 1537154995952.8792,
       "birthtimeMs": 1537154995952.75,
-      "atime": "2018-10-30T17:21:34.492Z",
+      "atime": "2018-10-30T17:47:37.272Z",
       "mtime": "2018-09-17T03:29:55.953Z",
       "ctime": "2018-09-17T03:29:55.953Z",
       "birthtime": "2018-09-17T03:29:55.953Z"
     },
-    "0946ec31-2da5-5e19-83ad-b1066d7e77c5": {
-      "id": "0946ec31-2da5-5e19-83ad-b1066d7e77c5",
-      "children": [],
-      "parent": "ff55ef78-ae60-56f8-a4c8-467357ed1493",
-      "internal": {
-        "contentDigest": "90f57dccc96b84934f7a82a14b5b458d",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "7734b4d8-5ce8-573f-8521-01b4487b5cfb": {
       "id": "7734b4d8-5ce8-573f-8521-01b4487b5cfb",
-      "children": [
-        "df66b1e2-7c16-566d-b57c-f804450410f3"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "5a287f9bc28c4b8a86383cbb5d05b591",
@@ -1960,7 +1442,7 @@
       "size": 431508,
       "prettySize": "432 kB",
       "modifiedTime": "2018-10-30T04:53:08.281Z",
-      "accessTime": "2018-10-30T17:21:38.208Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.281Z",
       "birthTime": "2018-10-30T04:53:08.275Z",
       "root": "/",
@@ -1978,20 +1460,18 @@
       "blksize": 4194304,
       "ino": 9920599,
       "blocks": 848,
-      "atimeMs": 1540920098208.4763,
+      "atimeMs": 1540921661100.73,
       "mtimeMs": 1540875188281.127,
       "ctimeMs": 1540875188281.127,
       "birthtimeMs": 1540875188275.2417,
-      "atime": "2018-10-30T17:21:38.208Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.281Z",
       "ctime": "2018-10-30T04:53:08.281Z",
       "birthtime": "2018-10-30T04:53:08.275Z"
     },
     "cb9769dd-54a9-5994-b068-4c7c5f13dc8e": {
       "id": "cb9769dd-54a9-5994-b068-4c7c5f13dc8e",
-      "children": [
-        "47620f89-e59a-5fe7-81cc-9b3a7452c50b"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "7243d966ee8542fac384eb750f6489c0",
@@ -2007,7 +1487,7 @@
       "size": 445060,
       "prettySize": "445 kB",
       "modifiedTime": "2018-10-30T04:53:08.362Z",
-      "accessTime": "2018-10-30T17:21:34.492Z",
+      "accessTime": "2018-10-30T17:47:37.273Z",
       "changeTime": "2018-10-30T04:53:08.362Z",
       "birthTime": "2018-10-30T04:53:08.355Z",
       "root": "/",
@@ -2025,40 +1505,18 @@
       "blksize": 4194304,
       "ino": 9920608,
       "blocks": 872,
-      "atimeMs": 1540920094491.7039,
+      "atimeMs": 1540921657272.528,
       "mtimeMs": 1540875188362.388,
       "ctimeMs": 1540875188362.388,
       "birthtimeMs": 1540875188355.3103,
-      "atime": "2018-10-30T17:21:34.492Z",
+      "atime": "2018-10-30T17:47:37.273Z",
       "mtime": "2018-10-30T04:53:08.362Z",
       "ctime": "2018-10-30T04:53:08.362Z",
       "birthtime": "2018-10-30T04:53:08.355Z"
     },
-    "df66b1e2-7c16-566d-b57c-f804450410f3": {
-      "id": "df66b1e2-7c16-566d-b57c-f804450410f3",
-      "children": [],
-      "parent": "7734b4d8-5ce8-573f-8521-01b4487b5cfb",
-      "internal": {
-        "contentDigest": "5a287f9bc28c4b8a86383cbb5d05b591",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "47620f89-e59a-5fe7-81cc-9b3a7452c50b": {
-      "id": "47620f89-e59a-5fe7-81cc-9b3a7452c50b",
-      "children": [],
-      "parent": "cb9769dd-54a9-5994-b068-4c7c5f13dc8e",
-      "internal": {
-        "contentDigest": "7243d966ee8542fac384eb750f6489c0",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "caae57e1-f5f8-520c-9891-483613284546": {
       "id": "caae57e1-f5f8-520c-9891-483613284546",
-      "children": [
-        "86b49379-e0ba-5bfd-ab17-10e75259a44c"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "4b938f55feed6663c828bc7b4db1c0d5",
@@ -2074,7 +1532,7 @@
       "size": 553631,
       "prettySize": "554 kB",
       "modifiedTime": "2018-10-30T04:53:08.355Z",
-      "accessTime": "2018-10-30T17:21:34.492Z",
+      "accessTime": "2018-10-30T17:47:37.273Z",
       "changeTime": "2018-10-30T04:53:08.355Z",
       "birthTime": "2018-10-30T04:53:08.344Z",
       "root": "/",
@@ -2092,30 +1550,18 @@
       "blksize": 4194304,
       "ino": 9920607,
       "blocks": 1088,
-      "atimeMs": 1540920094491.6765,
+      "atimeMs": 1540921657272.51,
       "mtimeMs": 1540875188354.6445,
       "ctimeMs": 1540875188354.6445,
       "birthtimeMs": 1540875188343.6702,
-      "atime": "2018-10-30T17:21:34.492Z",
+      "atime": "2018-10-30T17:47:37.273Z",
       "mtime": "2018-10-30T04:53:08.355Z",
       "ctime": "2018-10-30T04:53:08.355Z",
       "birthtime": "2018-10-30T04:53:08.344Z"
     },
-    "86b49379-e0ba-5bfd-ab17-10e75259a44c": {
-      "id": "86b49379-e0ba-5bfd-ab17-10e75259a44c",
-      "children": [],
-      "parent": "caae57e1-f5f8-520c-9891-483613284546",
-      "internal": {
-        "contentDigest": "4b938f55feed6663c828bc7b4db1c0d5",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "a453a99a-4637-5300-b291-73a6c4f4401f": {
       "id": "a453a99a-4637-5300-b291-73a6c4f4401f",
-      "children": [
-        "bcb64ff2-097b-5261-bb35-f1ff521539c4"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "522f3bead251c69224849beba8639706",
@@ -2131,7 +1577,7 @@
       "size": 602777,
       "prettySize": "603 kB",
       "modifiedTime": "2018-10-30T04:53:08.275Z",
-      "accessTime": "2018-10-30T17:21:38.208Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.275Z",
       "birthTime": "2018-10-30T04:53:08.268Z",
       "root": "/",
@@ -2149,20 +1595,18 @@
       "blksize": 4194304,
       "ino": 9920598,
       "blocks": 1184,
-      "atimeMs": 1540920098208.4563,
+      "atimeMs": 1540921661100.7095,
       "mtimeMs": 1540875188274.6042,
       "ctimeMs": 1540875188274.6042,
       "birthtimeMs": 1540875188268.4912,
-      "atime": "2018-10-30T17:21:38.208Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.275Z",
       "ctime": "2018-10-30T04:53:08.275Z",
       "birthtime": "2018-10-30T04:53:08.268Z"
     },
     "6167f89d-f5a3-574d-9991-8d0af939ec0d": {
       "id": "6167f89d-f5a3-574d-9991-8d0af939ec0d",
-      "children": [
-        "f8e9e1c3-da22-5722-82a0-5016131be0e0"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "df3d69f0af6a48bedacca6076ac1403b",
@@ -2178,7 +1622,7 @@
       "size": 610346,
       "prettySize": "610 kB",
       "modifiedTime": "2018-10-30T05:00:48.196Z",
-      "accessTime": "2018-10-30T17:21:38.209Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T05:00:48.196Z",
       "birthTime": "2018-10-30T05:00:48.193Z",
       "root": "/",
@@ -2196,40 +1640,18 @@
       "blksize": 4194304,
       "ino": 9921171,
       "blocks": 1200,
-      "atimeMs": 1540920098208.8828,
+      "atimeMs": 1540921661101.1877,
       "mtimeMs": 1540875648196.3613,
       "ctimeMs": 1540875648196.3613,
       "birthtimeMs": 1540875648192.8223,
-      "atime": "2018-10-30T17:21:38.209Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T05:00:48.196Z",
       "ctime": "2018-10-30T05:00:48.196Z",
       "birthtime": "2018-10-30T05:00:48.193Z"
     },
-    "bcb64ff2-097b-5261-bb35-f1ff521539c4": {
-      "id": "bcb64ff2-097b-5261-bb35-f1ff521539c4",
-      "children": [],
-      "parent": "a453a99a-4637-5300-b291-73a6c4f4401f",
-      "internal": {
-        "contentDigest": "522f3bead251c69224849beba8639706",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "f8e9e1c3-da22-5722-82a0-5016131be0e0": {
-      "id": "f8e9e1c3-da22-5722-82a0-5016131be0e0",
-      "children": [],
-      "parent": "6167f89d-f5a3-574d-9991-8d0af939ec0d",
-      "internal": {
-        "contentDigest": "df3d69f0af6a48bedacca6076ac1403b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "7a3e6d01-53c8-5139-9b9a-02e1a3d6a79c": {
       "id": "7a3e6d01-53c8-5139-9b9a-02e1a3d6a79c",
-      "children": [
-        "31a1a568-5e10-50f1-8e4d-dfb3d3c7342c"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "3cb8f8e2fb15369d68426e3bb9fb4991",
@@ -2245,7 +1667,7 @@
       "size": 776376,
       "prettySize": "776 kB",
       "modifiedTime": "2018-10-30T04:53:08.440Z",
-      "accessTime": "2018-10-30T17:21:34.492Z",
+      "accessTime": "2018-10-30T17:47:37.273Z",
       "changeTime": "2018-10-30T04:53:08.440Z",
       "birthTime": "2018-10-30T04:53:08.433Z",
       "root": "/",
@@ -2263,20 +1685,18 @@
       "blksize": 4194304,
       "ino": 9920614,
       "blocks": 1520,
-      "atimeMs": 1540920094491.791,
+      "atimeMs": 1540921657272.6252,
       "mtimeMs": 1540875188440.3962,
       "ctimeMs": 1540875188440.3962,
       "birthtimeMs": 1540875188432.72,
-      "atime": "2018-10-30T17:21:34.492Z",
+      "atime": "2018-10-30T17:47:37.273Z",
       "mtime": "2018-10-30T04:53:08.440Z",
       "ctime": "2018-10-30T04:53:08.440Z",
       "birthtime": "2018-10-30T04:53:08.433Z"
     },
     "aac70739-ab6a-537b-b09f-e8166f868fb5": {
       "id": "aac70739-ab6a-537b-b09f-e8166f868fb5",
-      "children": [
-        "521746f0-5291-528a-abb0-029e839baea0"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "9ea7a01eb172681b5f4ea2cc99f21396",
@@ -2292,7 +1712,7 @@
       "size": 742617,
       "prettySize": "743 kB",
       "modifiedTime": "2018-10-30T04:53:08.449Z",
-      "accessTime": "2018-10-30T17:21:38.209Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.449Z",
       "birthTime": "2018-10-30T04:53:08.441Z",
       "root": "/",
@@ -2310,40 +1730,18 @@
       "blksize": 4194304,
       "ino": 9920615,
       "blocks": 1456,
-      "atimeMs": 1540920098208.822,
+      "atimeMs": 1540921661101.1248,
       "mtimeMs": 1540875188449.0884,
       "ctimeMs": 1540875188449.0884,
       "birthtimeMs": 1540875188440.626,
-      "atime": "2018-10-30T17:21:38.209Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.449Z",
       "ctime": "2018-10-30T04:53:08.449Z",
       "birthtime": "2018-10-30T04:53:08.441Z"
     },
-    "31a1a568-5e10-50f1-8e4d-dfb3d3c7342c": {
-      "id": "31a1a568-5e10-50f1-8e4d-dfb3d3c7342c",
-      "children": [],
-      "parent": "7a3e6d01-53c8-5139-9b9a-02e1a3d6a79c",
-      "internal": {
-        "contentDigest": "3cb8f8e2fb15369d68426e3bb9fb4991",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "521746f0-5291-528a-abb0-029e839baea0": {
-      "id": "521746f0-5291-528a-abb0-029e839baea0",
-      "children": [],
-      "parent": "aac70739-ab6a-537b-b09f-e8166f868fb5",
-      "internal": {
-        "contentDigest": "9ea7a01eb172681b5f4ea2cc99f21396",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "a6babe4f-53bf-5c82-bc7e-a6805ed8a7e8": {
       "id": "a6babe4f-53bf-5c82-bc7e-a6805ed8a7e8",
-      "children": [
-        "35230956-f25c-5859-b238-1f6143f05ec4"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "a88aba08c2c27b98af1d6781cca37e84",
@@ -2359,7 +1757,7 @@
       "size": 818063,
       "prettySize": "818 kB",
       "modifiedTime": "2018-10-30T04:53:08.371Z",
-      "accessTime": "2018-10-30T17:21:34.492Z",
+      "accessTime": "2018-10-30T17:47:37.273Z",
       "changeTime": "2018-10-30T04:53:08.371Z",
       "birthTime": "2018-10-30T04:53:08.363Z",
       "root": "/",
@@ -2377,30 +1775,18 @@
       "blksize": 4194304,
       "ino": 9920609,
       "blocks": 1600,
-      "atimeMs": 1540920094491.7112,
+      "atimeMs": 1540921657272.5554,
       "mtimeMs": 1540875188370.5427,
       "ctimeMs": 1540875188370.5427,
       "birthtimeMs": 1540875188362.78,
-      "atime": "2018-10-30T17:21:34.492Z",
+      "atime": "2018-10-30T17:47:37.273Z",
       "mtime": "2018-10-30T04:53:08.371Z",
       "ctime": "2018-10-30T04:53:08.371Z",
       "birthtime": "2018-10-30T04:53:08.363Z"
     },
-    "35230956-f25c-5859-b238-1f6143f05ec4": {
-      "id": "35230956-f25c-5859-b238-1f6143f05ec4",
-      "children": [],
-      "parent": "a6babe4f-53bf-5c82-bc7e-a6805ed8a7e8",
-      "internal": {
-        "contentDigest": "a88aba08c2c27b98af1d6781cca37e84",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "5b106f62-bb51-57e1-a612-113be3158107": {
       "id": "5b106f62-bb51-57e1-a612-113be3158107",
-      "children": [
-        "e3c69d95-6e8e-5a4b-91f5-b6ef740aee2a"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "0e3a30b7b7610212d6393aadbe7246be",
@@ -2416,7 +1802,7 @@
       "size": 979242,
       "prettySize": "979 kB",
       "modifiedTime": "2018-10-30T05:00:50.975Z",
-      "accessTime": "2018-10-30T17:21:38.209Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T05:00:50.975Z",
       "birthTime": "2018-10-30T05:00:50.969Z",
       "root": "/",
@@ -2434,30 +1820,18 @@
       "blksize": 4194304,
       "ino": 9921173,
       "blocks": 1920,
-      "atimeMs": 1540920098208.903,
+      "atimeMs": 1540921661101.209,
       "mtimeMs": 1540875650974.745,
       "ctimeMs": 1540875650974.745,
       "birthtimeMs": 1540875650968.7188,
-      "atime": "2018-10-30T17:21:38.209Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T05:00:50.975Z",
       "ctime": "2018-10-30T05:00:50.975Z",
       "birthtime": "2018-10-30T05:00:50.969Z"
     },
-    "e3c69d95-6e8e-5a4b-91f5-b6ef740aee2a": {
-      "id": "e3c69d95-6e8e-5a4b-91f5-b6ef740aee2a",
-      "children": [],
-      "parent": "5b106f62-bb51-57e1-a612-113be3158107",
-      "internal": {
-        "contentDigest": "0e3a30b7b7610212d6393aadbe7246be",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "1c0da0cb-f0a0-55ed-8aa3-ca8b94a55d6b": {
       "id": "1c0da0cb-f0a0-55ed-8aa3-ca8b94a55d6b",
-      "children": [
-        "693e9f67-d290-5733-9f89-1f22aed02ed7"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "3f89d7277f051a0f67eab4686efd7239",
@@ -2473,7 +1847,7 @@
       "size": 1008254,
       "prettySize": "1.01 MB",
       "modifiedTime": "2018-10-30T04:53:08.381Z",
-      "accessTime": "2018-10-30T17:21:38.209Z",
+      "accessTime": "2018-10-30T17:47:41.101Z",
       "changeTime": "2018-10-30T04:53:08.381Z",
       "birthTime": "2018-10-30T04:53:08.371Z",
       "root": "/",
@@ -2491,30 +1865,18 @@
       "blksize": 4194304,
       "ino": 9920610,
       "blocks": 1976,
-      "atimeMs": 1540920098208.7205,
+      "atimeMs": 1540921661100.98,
       "mtimeMs": 1540875188381.2803,
       "ctimeMs": 1540875188381.2803,
       "birthtimeMs": 1540875188370.9863,
-      "atime": "2018-10-30T17:21:38.209Z",
+      "atime": "2018-10-30T17:47:41.101Z",
       "mtime": "2018-10-30T04:53:08.381Z",
       "ctime": "2018-10-30T04:53:08.381Z",
       "birthtime": "2018-10-30T04:53:08.371Z"
     },
-    "693e9f67-d290-5733-9f89-1f22aed02ed7": {
-      "id": "693e9f67-d290-5733-9f89-1f22aed02ed7",
-      "children": [],
-      "parent": "1c0da0cb-f0a0-55ed-8aa3-ca8b94a55d6b",
-      "internal": {
-        "contentDigest": "3f89d7277f051a0f67eab4686efd7239",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "1ba10539-9c7c-5568-af21-06fc48c1d60a": {
       "id": "1ba10539-9c7c-5568-af21-06fc48c1d60a",
-      "children": [
-        "a62f0087-f1c0-5938-8cf7-003392e37cb2"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "3323c98b2c98324167b0753374ae7fd2",
@@ -2530,7 +1892,7 @@
       "size": 1738099,
       "prettySize": "1.74 MB",
       "modifiedTime": "2018-10-30T04:53:08.483Z",
-      "accessTime": "2018-10-30T17:21:34.492Z",
+      "accessTime": "2018-10-30T17:47:37.273Z",
       "changeTime": "2018-10-30T04:53:08.483Z",
       "birthTime": "2018-10-30T04:53:08.449Z",
       "root": "/",
@@ -2548,30 +1910,18 @@
       "blksize": 4194304,
       "ino": 9920616,
       "blocks": 3400,
-      "atimeMs": 1540920094491.814,
+      "atimeMs": 1540921657272.6619,
       "mtimeMs": 1540875188483.3745,
       "ctimeMs": 1540875188483.3745,
       "birthtimeMs": 1540875188449.4631,
-      "atime": "2018-10-30T17:21:34.492Z",
+      "atime": "2018-10-30T17:47:37.273Z",
       "mtime": "2018-10-30T04:53:08.483Z",
       "ctime": "2018-10-30T04:53:08.483Z",
       "birthtime": "2018-10-30T04:53:08.449Z"
     },
-    "a62f0087-f1c0-5938-8cf7-003392e37cb2": {
-      "id": "a62f0087-f1c0-5938-8cf7-003392e37cb2",
-      "children": [],
-      "parent": "1ba10539-9c7c-5568-af21-06fc48c1d60a",
-      "internal": {
-        "contentDigest": "3323c98b2c98324167b0753374ae7fd2",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "e7b179f7-be29-519d-a281-b2d583ab1d50": {
       "id": "e7b179f7-be29-519d-a281-b2d583ab1d50",
-      "children": [
-        "ac4faab6-9810-5d8c-9d70-149ceb600b50"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "6ddbd5e7472a5dbca84270483b94d53c",
@@ -2587,7 +1937,7 @@
       "size": 2298828,
       "prettySize": "2.3 MB",
       "modifiedTime": "2018-10-30T04:53:08.398Z",
-      "accessTime": "2018-10-30T17:21:34.492Z",
+      "accessTime": "2018-10-30T17:47:37.273Z",
       "changeTime": "2018-10-30T04:53:08.398Z",
       "birthTime": "2018-10-30T04:53:08.382Z",
       "root": "/",
@@ -2605,30 +1955,18 @@
       "blksize": 4194304,
       "ino": 9920611,
       "blocks": 4496,
-      "atimeMs": 1540920094491.7456,
+      "atimeMs": 1540921657272.579,
       "mtimeMs": 1540875188398.319,
       "ctimeMs": 1540875188398.319,
       "birthtimeMs": 1540875188381.7263,
-      "atime": "2018-10-30T17:21:34.492Z",
+      "atime": "2018-10-30T17:47:37.273Z",
       "mtime": "2018-10-30T04:53:08.398Z",
       "ctime": "2018-10-30T04:53:08.398Z",
       "birthtime": "2018-10-30T04:53:08.382Z"
     },
-    "ac4faab6-9810-5d8c-9d70-149ceb600b50": {
-      "id": "ac4faab6-9810-5d8c-9d70-149ceb600b50",
-      "children": [],
-      "parent": "e7b179f7-be29-519d-a281-b2d583ab1d50",
-      "internal": {
-        "contentDigest": "6ddbd5e7472a5dbca84270483b94d53c",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "ce2c6417-b201-58ad-8090-be9b519d1f56": {
       "id": "ce2c6417-b201-58ad-8090-be9b519d1f56",
-      "children": [
-        "2913173e-2d6e-5897-a63e-a55b275140a7"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "eed7b27d999de248b34eb6b871dad6df",
@@ -2644,7 +1982,7 @@
       "size": 2505336,
       "prettySize": "2.51 MB",
       "modifiedTime": "2018-10-30T04:53:08.342Z",
-      "accessTime": "2018-10-30T17:21:34.492Z",
+      "accessTime": "2018-10-30T17:47:37.272Z",
       "changeTime": "2018-10-30T04:53:08.342Z",
       "birthTime": "2018-10-30T04:53:08.300Z",
       "root": "/",
@@ -2662,30 +2000,18 @@
       "blksize": 4194304,
       "ino": 9920606,
       "blocks": 4896,
-      "atimeMs": 1540920094491.6658,
+      "atimeMs": 1540921657272.4922,
       "mtimeMs": 1540875188342.343,
       "ctimeMs": 1540875188342.343,
       "birthtimeMs": 1540875188299.9307,
-      "atime": "2018-10-30T17:21:34.492Z",
+      "atime": "2018-10-30T17:47:37.272Z",
       "mtime": "2018-10-30T04:53:08.342Z",
       "ctime": "2018-10-30T04:53:08.342Z",
       "birthtime": "2018-10-30T04:53:08.300Z"
     },
-    "2913173e-2d6e-5897-a63e-a55b275140a7": {
-      "id": "2913173e-2d6e-5897-a63e-a55b275140a7",
-      "children": [],
-      "parent": "ce2c6417-b201-58ad-8090-be9b519d1f56",
-      "internal": {
-        "contentDigest": "eed7b27d999de248b34eb6b871dad6df",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "c08d3025-30e6-5d57-845c-c6fef98fed79": {
       "id": "c08d3025-30e6-5d57-845c-c6fef98fed79",
-      "children": [
-        "7518f1f1-6316-510b-a1b2-c446edb03d5b"
-      ],
+      "children": [],
       "parent": "___SOURCE___",
       "internal": {
         "contentDigest": "551fcd513951cd083f2594b454eaf928",
@@ -2701,7 +2027,7 @@
       "size": 2887741,
       "prettySize": "2.89 MB",
       "modifiedTime": "2018-10-30T04:53:08.428Z",
-      "accessTime": "2018-10-30T17:21:34.492Z",
+      "accessTime": "2018-10-30T17:47:37.273Z",
       "changeTime": "2018-10-30T04:53:08.428Z",
       "birthTime": "2018-10-30T04:53:08.399Z",
       "root": "/",
@@ -2719,219 +2045,14 @@
       "blksize": 4194304,
       "ino": 9920612,
       "blocks": 5648,
-      "atimeMs": 1540920094491.7542,
+      "atimeMs": 1540921657272.5845,
       "mtimeMs": 1540875188428.401,
       "ctimeMs": 1540875188428.401,
       "birthtimeMs": 1540875188399.0881,
-      "atime": "2018-10-30T17:21:34.492Z",
+      "atime": "2018-10-30T17:47:37.273Z",
       "mtime": "2018-10-30T04:53:08.428Z",
       "ctime": "2018-10-30T04:53:08.428Z",
       "birthtime": "2018-10-30T04:53:08.399Z"
-    },
-    "7518f1f1-6316-510b-a1b2-c446edb03d5b": {
-      "id": "7518f1f1-6316-510b-a1b2-c446edb03d5b",
-      "children": [],
-      "parent": "c08d3025-30e6-5d57-845c-c6fef98fed79",
-      "internal": {
-        "contentDigest": "551fcd513951cd083f2594b454eaf928",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "eeabb520-50dd-53e4-bdcf-6f8212552bd3": {
-      "id": "eeabb520-50dd-53e4-bdcf-6f8212552bd3",
-      "parent": null,
-      "children": [],
-      "name": "Project",
-      "displayField": "title",
-      "description": "",
-      "internal": {
-        "type": "ContentfulContentType",
-        "contentDigest": "728bc87761a7c7871960514cecef9d9f",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "04c387d0-028e-5f85-a00b-9572f5613bc1": {
-      "title": "Gorts",
-      "github": "https://github.com/rbtprograms/fullstack-app",
-      "summary": "Realtime 2-player bidding game",
-      "monthYear": "August 2018",
-      "technologies": "Javascript, React, Redux, Firebase, MongoDB",
-      "deployedSite": "https://gorts.herokuapp.com/",
-      "image___NODE": "a2c43c40-354a-5ae3-a48f-c8e1c9a0d418",
-      "splash___NODE": "ad496919-e637-5ccc-9a55-b8877485989d",
-      "description___NODE": "454591e8-02fc-59f6-9a50-04ae24879a03",
-      "id": "04c387d0-028e-5f85-a00b-9572f5613bc1",
-      "contentful_id": "6SOanRR32geUuKMeyuuG0g",
-      "createdAt": "2018-09-13T20:49:35.682Z",
-      "updatedAt": "2018-09-16T23:59:09.919Z",
-      "parent": "Project",
-      "children": [
-        "454591e8-02fc-59f6-9a50-04ae24879a03"
-      ],
-      "internal": {
-        "type": "ContentfulProject",
-        "contentDigest": "5d361275888ba22e241a6b2174681281",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "en-US"
-    },
-    "50c47db1-027a-53f9-b3ca-e873974bb153": {
-      "title": "Booxy",
-      "github": "https://github.com/arthurjen/booxy",
-      "summary": "Squares making more squares",
-      "monthYear": "April 2017",
-      "technologies": "JavaScript, Vue",
-      "deployedSite": "https://arthurjen.github.io/booxy/",
-      "description___NODE": "27376b18-3c13-5efd-bf09-901d6c794886",
-      "id": "50c47db1-027a-53f9-b3ca-e873974bb153",
-      "contentful_id": "3mUuMraMsw8Wi8OuGOkoKi",
-      "createdAt": "2018-09-13T20:13:49.598Z",
-      "updatedAt": "2018-09-13T20:35:30.958Z",
-      "parent": "Project",
-      "children": [
-        "27376b18-3c13-5efd-bf09-901d6c794886"
-      ],
-      "internal": {
-        "type": "ContentfulProject",
-        "contentDigest": "eff6e2cbb26855db84d19fb179b3e761",
-        "owner": "gatsby-source-contentful"
-      },
-      "node_locale": "en-US"
-    },
-    "454591e8-02fc-59f6-9a50-04ae24879a03": {
-      "id": "454591e8-02fc-59f6-9a50-04ae24879a03",
-      "parent": "04c387d0-028e-5f85-a00b-9572f5613bc1",
-      "children": [],
-      "description": "We designed the game with realtime 2-player functionality. Each player tries to outbid their opponent while using guerilla tactics. A simple bidding game inspired by the combat system in the board game, Scythe.",
-      "internal": {
-        "type": "contentfulProjectDescriptionTextNode",
-        "mediaType": "text/markdown",
-        "content": "We designed the game with realtime 2-player functionality. Each player tries to outbid their opponent while using guerilla tactics. A simple bidding game inspired by the combat system in the board game, Scythe.",
-        "contentDigest": "83488c1682562c7ad95536bf1718a90f",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "27376b18-3c13-5efd-bf09-901d6c794886": {
-      "id": "27376b18-3c13-5efd-bf09-901d6c794886",
-      "parent": "50c47db1-027a-53f9-b3ca-e873974bb153",
-      "children": [],
-      "description": "Like many other projects, this small one started with a question: \"Wouldn't it be cool if you had a square that divided into more squares when you clicked it?\". Research into this led me to recursive components.",
-      "internal": {
-        "type": "contentfulProjectDescriptionTextNode",
-        "mediaType": "text/markdown",
-        "content": "Like many other projects, this small one started with a question: \"Wouldn't it be cool if you had a square that divided into more squares when you clicked it?\". Research into this led me to recursive components.",
-        "contentDigest": "d543909fc439c9e199156f646e7680e7",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "ad496919-e637-5ccc-9a55-b8877485989d": {
-      "contentful_id": "4RahrvGmqQQumswimEyKOC",
-      "id": "ad496919-e637-5ccc-9a55-b8877485989d",
-      "parent": null,
-      "children": [],
-      "file": {
-        "url": "//images.ctfassets.net/nz6p5gptgz07/4RahrvGmqQQumswimEyKOC/82ed3b9be27a2939f6786f420af13e34/gorts.png",
-        "details": {
-          "size": 2903526,
-          "image": {
-            "width": 1782,
-            "height": 1606
-          }
-        },
-        "fileName": "gorts.png",
-        "contentType": "image/png"
-      },
-      "title": "gorts",
-      "description": "",
-      "node_locale": "en-US",
-      "internal": {
-        "type": "ContentfulAsset",
-        "contentDigest": "8f12a1097f7af965ccae9dccb9052726",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "a2c43c40-354a-5ae3-a48f-c8e1c9a0d418": {
-      "contentful_id": "3EwKn4tp3WAks4YMu24OQ8",
-      "id": "a2c43c40-354a-5ae3-a48f-c8e1c9a0d418",
-      "parent": null,
-      "children": [],
-      "file": {
-        "url": "//images.ctfassets.net/nz6p5gptgz07/3EwKn4tp3WAks4YMu24OQ8/336036ac0ff92ab0b4f8d5e63f73e6b5/gorts.png",
-        "details": {
-          "size": 2903526,
-          "image": {
-            "width": 1782,
-            "height": 1606
-          }
-        },
-        "fileName": "gorts.png",
-        "contentType": "image/png"
-      },
-      "title": "gorts",
-      "description": "",
-      "node_locale": "en-US",
-      "internal": {
-        "type": "ContentfulAsset",
-        "contentDigest": "212687c527bb83bdacc886c411a841cc",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "00a1a245-30b8-5085-b68c-40b26256566f": {
-      "contentful_id": "7wvBl3FquIe0UCUqUa6aK6",
-      "id": "00a1a245-30b8-5085-b68c-40b26256566f",
-      "parent": null,
-      "children": [],
-      "file": {
-        "url": "//images.ctfassets.net/nz6p5gptgz07/7wvBl3FquIe0UCUqUa6aK6/3b4ec6fd0e2f49a6395389de47fc046c/booxy.png",
-        "details": {
-          "size": 156537,
-          "image": {
-            "width": 2880,
-            "height": 1800
-          }
-        },
-        "fileName": "booxy.png",
-        "contentType": "image/png"
-      },
-      "title": "booxy",
-      "description": "",
-      "node_locale": "en-US",
-      "internal": {
-        "type": "ContentfulAsset",
-        "contentDigest": "e9661e3a4752498f2a6afb8c24e3025e",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "20aabdbe-1972-537b-9275-cfcd0690037d": {
-      "contentful_id": "11EN18bcvyUO8YceUgwYem",
-      "id": "20aabdbe-1972-537b-9275-cfcd0690037d",
-      "parent": null,
-      "children": [],
-      "file": null,
-      "title": "",
-      "description": "",
-      "node_locale": "en-US",
-      "internal": {
-        "type": "ContentfulAsset",
-        "contentDigest": "8bc253cfc8a702c9f3e6463e9ad86a55",
-        "owner": "gatsby-source-contentful"
-      }
-    },
-    "005e3ba1-9a40-5804-b5ef-b50474a18c05": {
-      "contentful_id": "3BADgHtXmoYqY8qww8Wicm",
-      "id": "005e3ba1-9a40-5804-b5ef-b50474a18c05",
-      "parent": null,
-      "children": [],
-      "file": null,
-      "title": "",
-      "description": "",
-      "node_locale": "en-US",
-      "internal": {
-        "type": "ContentfulAsset",
-        "contentDigest": "ab92e377fb4e889b22342d3aea77f8eb",
-        "owner": "gatsby-source-contentful"
-      }
     },
     "SitePage /about/": {
       "jsonName": "about-f34",
@@ -3056,7 +2177,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6ccc7f63950481a1e006812943d3e1f2"
+    "PLUGINS_HASH": "035bcce029512a4493d7a68427970319"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -3077,10 +2198,6 @@
     "companion-596": "760/path---companion-596-9d6-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js"
-    },
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js": {
       "query": "",
       "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/about.js"
