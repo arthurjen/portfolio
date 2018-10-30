@@ -21,7 +21,6 @@ export default () => (
         <div></div>
         <div></div>
         <div></div>
-        <div></div>
       </div>
     </section>
   </Layout>
