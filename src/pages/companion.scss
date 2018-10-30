@@ -1,29 +1,33 @@
 :local(.companion) {
-  padding: 13vh 5vw 0;
-  background: rgb(240, 240, 240);
+  padding-top: 13vh;
   height: 100%;
 
   hgroup {
     margin: 50px 0px;
     text-align: center;
+    font-size: 2em;
   }
 
   .description {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 8vw;
+    padding: 0 8vw 8vw;
   }
 
   .screenshots {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    background: rgb(240, 240, 240);
   }
 
   .screenshots div {
     width: 800px;
     height: 480px;
     margin: 2vw;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.13);
   }
   
   ul p {
@@ -49,6 +53,16 @@
       width: 90vw;
       height: 54vw;
       margin: 2vw;
+    }
+
+    .screenshots {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .description {
+      grid-template: min-content min-content / 1fr;
+      grid-gap: 8vh;
     }
   }
 }

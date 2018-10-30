@@ -1,13 +1,15 @@
 :local(.app) {
-  padding-top: 15vh;
+  padding-top: 20vh;
   padding-bottom: 5vh;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   section {
     display: grid;
-    grid-template: 24vw 24vw / 45vw 45vw;
-    padding: 3vh 5vw;
-    height: 90vh;
-    grid-gap: 3vw;
+    grid-template: repeat(4, 360px) / 600px;
+    padding: 3vh 5vw 10vh;
+    grid-gap: 10vh;
   }
 
   a > div {
@@ -39,7 +41,7 @@
     color: white;
     font-size: 2em;
     border: 1px solid lightgrey;
-    box-shadow: 1px 1px 5px lightgrey;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.13);
   }
   
 
@@ -64,25 +66,6 @@
     background-position: center;
   }
 
-  
-  section a:hover {
-    filter: brightness(1.5) grayscale(100%);
-  }
-
-  section a:hover h2 {
-    filter: opacity(1);
-  }
-  
-  // section > div > h2 {
-  //   transition: all 0.5s ease;
-  //   display: none;
-  // }
-  
-  // section div:hover h2 {
-  //   display: inline;
-  //   padding: 1em;
-  //   text-shadow: 1px 1px 5px black;
-  // }
 
   @media only screen and (max-width: 768px) {
 
