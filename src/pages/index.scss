@@ -1,5 +1,6 @@
 :local(.app) {
   padding-top: 15vh;
+  padding-bottom: 5vh;
   background: rgb(240, 240, 240);
   
   section {
@@ -83,19 +84,17 @@
   // }
 
   @media only screen and (max-width: 768px) {
+
     section {
       align-items: center;
       overflow-y: scroll;
-      grid-template: repeat(4, min-content) / 1fr;
+      grid-template: repeat(4, 54vw) / 1fr;
       height: auto;
       padding: 0 5vw;
     }
     section > div {
       width: 90vw;
-      height: 50vw;
       margin: 5px 0px;
-      
-      
     }
   }
 

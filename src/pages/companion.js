@@ -11,6 +11,10 @@ export default () => (
       <div className="description">
         <p>Bootcamp Companion App helps make life at Alchemy better.</p>
         <ul>
+          <h4>Link:</h4>
+          <p>
+            <a href="https://alchemy-companion.herokuapp.com/#/">Website</a> | <a href="https://github.com/team-denim">Github</a>
+          </p>
           <h4>Front End:</h4>
           <p>Vue</p>
           <h4>Back End:</h4>
@@ -18,7 +22,6 @@ export default () => (
         </ul>
       </div>
       <div className="screenshots">
-        <div></div>
         <div></div>
         <div></div>
         <div></div>

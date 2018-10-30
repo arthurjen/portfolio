@@ -17,7 +17,9 @@ class Header extends Component {
 
     return (
       <header className={styles.header}>
-        <div className="logo"></div>
+        <Link to="/">
+          <div className="logo"></div>
+        </Link>
         <nav>
           <Link activeStyle={activeLink} to="/">work</Link>
           <Link activeStyle={activeLink} to="/about/">about</Link>
