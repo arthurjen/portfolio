@@ -13,7 +13,7 @@ export default () => (
         <ul>
           <h4>Link:</h4>
           <p>
-            <a href="https://snapesgame.herokuapp.com">Website</a> | <a href="https://github.com/teamDice">Github</a>
+            <a href="https://snakesgame.herokuapp.com">Website</a> | <a href="https://github.com/teamDice">Github</a>
           </p>
           <h4>Front End:</h4>
           <p>React, Redux</p>

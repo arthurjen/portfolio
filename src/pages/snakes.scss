@@ -1,6 +1,5 @@
 :local(.snakes) {
-  padding: 13vh 5vw 0;
-  background: rgb(240, 240, 240);
+  padding-top: 13vh;
   height: 100%;
 
 
@@ -14,6 +13,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 8vw;
+    padding: 8vw
   }
 
 
@@ -25,6 +25,8 @@
   .screenshots {
     display: flex;
     justify-content: center;
+    width: 100vw;
+    background: rgb(240, 240, 240);
   }
 
   .screenshots div {

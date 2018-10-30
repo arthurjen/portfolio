@@ -1,7 +1,6 @@
 :local(.app) {
   padding-top: 15vh;
   padding-bottom: 5vh;
-  background: rgb(240, 240, 240);
   
   section {
     display: grid;
@@ -39,6 +38,8 @@
     text-decoration: none;
     color: white;
     font-size: 2em;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 5px lightgrey;
   }
   
 

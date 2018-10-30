@@ -11,8 +11,8 @@ class Header extends Component {
   render() { 
 
     const activeLink = {
-      borderBottom: '1px solid #574FBF',
-      borderRight: '1px solid #574FBF'
+      background: 'rgba(255, 211, 20, 0.5)'
+
     }
 
     return (
