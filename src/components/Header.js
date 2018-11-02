@@ -12,7 +12,6 @@ class Header extends Component {
 
     const activeLink = {
       background: 'rgba(255, 211, 20, 0.5)'
-
     }
 
     return (

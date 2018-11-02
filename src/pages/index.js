@@ -37,7 +37,6 @@ class Index extends Component {
                 this.state.projects.map(({ name, url }, i) => (
                   <Link key={i} to={url}>
                     <div>
-                      <h2>{name}</h2>
                     </div>
                   </Link>
                 ))
