@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fe2022d99eac6cd22b49799109c9f6f7",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -702,16 +693,14 @@
     },
     "Site": {
       "siteMetadata": {},
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-02T22:18:45.337Z",
+      "buildTime": "2018-11-02T22:22:19.147Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0cdf775928737ca07ad6a189020d3ea7",
+        "contentDigest": "b261b3181313b51a2283873a1f274a70",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -721,7 +710,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e29aa2cc6d974c6721347207b35b7efd",
+        "contentDigest": "0945a55218b99eb88cea69d19621b083",
         "type": "Directory",
         "description": "Directory \"src/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -733,7 +722,7 @@
       "size": 1024,
       "prettySize": "1.02 kB",
       "modifiedTime": "2018-10-30T05:00:50.969Z",
-      "accessTime": "2018-11-02T22:18:47.181Z",
+      "accessTime": "2018-11-02T22:22:20.696Z",
       "changeTime": "2018-10-30T05:00:50.969Z",
       "birthTime": "2018-09-17T03:29:55.447Z",
       "root": "/",
@@ -751,11 +740,11 @@
       "blksize": 4194304,
       "ino": 8491608,
       "blocks": 0,
-      "atimeMs": 1541197127180.9248,
+      "atimeMs": 1541197340695.725,
       "mtimeMs": 1540875650968.73,
       "ctimeMs": 1540875650968.73,
       "birthtimeMs": 1537154995446.801,
-      "atime": "2018-11-02T22:18:47.181Z",
+      "atime": "2018-11-02T22:22:20.696Z",
       "mtime": "2018-10-30T05:00:50.969Z",
       "ctime": "2018-10-30T05:00:50.969Z",
       "birthtime": "2018-09-17T03:29:55.447Z"
@@ -2232,10 +2221,6 @@
     "/Users/arthurjen/alchemy/401/portfolio/src/pages/snakes.js": {
       "query": "",
       "componentPath": "/Users/arthurjen/alchemy/401/portfolio/src/pages/snakes.js"
-    },
-    "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/arthurjen/alchemy/401/portfolio/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}
