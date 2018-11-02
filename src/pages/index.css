@@ -74,6 +74,7 @@
       overflow-y: scroll;
       grid-template: repeat(4, 54vw) / 1fr;
       height: auto;
+      width: 100%;
       padding: 0 5vw;
     }
     section > div {
