@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Layout from '../components/layout';
 import { Link } from 'gatsby';
-import './main.css';
-import styles from './index.css';
+import styles from './index.scss';
 
 class Index extends Component {
   state = {
