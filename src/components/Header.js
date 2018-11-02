@@ -21,8 +21,8 @@ class Header extends Component {
           <div className="logo"></div>
         </Link>
         <nav>
-          <Link activeStyle={activeLink} to="/">work</Link>
-          <Link activeStyle={activeLink} to="/about/">about</Link>
+          <Link activeStyle={activeLink} to="/">Work</Link>
+          <Link activeStyle={activeLink} to="/about/">About</Link>
         </nav>
       </header>
     );
